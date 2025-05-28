@@ -20,16 +20,16 @@ database = 'capitalone360'
 engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}")
 
 # Read data from MySQL
-query = "SELECT * FROM capitalone360.capitalone_mock_transactions"  # Replace 'transactions' with your table name if different
-df = pd.read_sql(query, con=engine)
+#query = "SELECT * FROM capitalone360.capitalone_mock_transactions"  # Replace 'transactions' with your table name if different
+df = pd.read_csv("CapitalOne_Mock_Transactions.csv")
 
 # Load fraud-detected transactions
-fraud_query = "SELECT * FROM capitalone360.capitalone_fraud_detected"
-fraud_df = pd.read_sql(fraud_query, con=engine)
+#fraud_query = "SELECT * FROM capitalone360.capitalone_fraud_detected"
+fraud_df = pd.read_csv("CapitalOne_Fraud_Detected.csv")
 
 # ------------------ Load Segmentation Data ------------------
-segment_query = "SELECT * FROM capitalone360.capitalone_user_segments"
-segment_df = pd.read_sql(segment_query, con=engine)
+#segment_query = "SELECT * FROM capitalone360.capitalone_user_segments"
+segment_df = pd.read_csv("CapitalOne_User_Segments.csv")
 
 # Merge with main data (assuming df is your main transaction DataFrame)
 df = df.merge(segment_df, on='User_ID', how='left')
