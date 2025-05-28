@@ -5,19 +5,19 @@ os.environ['STREAMLIT_SERVER_HEADLESS'] = 'true'
 
 import streamlit as st
 import pandas as pd
-from sqlalchemy import create_engine
-import pymysql  # Needed for pymysql to work with SQLAlchemy
+#from sqlalchemy import create_engine
+#import pymysql  # Needed for pymysql to work with SQLAlchemy
 import matplotlib.pyplot as plt
 
 # Database connection
-username = 'root'
-password = 'root'
-host = 'localhost'
-port = '3306'
-database = 'capitalone360'
+#username = 'root'
+#password = 'root'
+#host = 'localhost'
+#port = '3306'
+#database = 'capitalone360'
 
 # Create SQLAlchemy engine with pymysql
-engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}")
+#engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}")
 
 # Read data from MySQL
 #query = "SELECT * FROM capitalone360.capitalone_mock_transactions"  # Replace 'transactions' with your table name if different
@@ -180,10 +180,11 @@ import numpy as np
 st.markdown("### 🧠 Smart Merchant Recommendations")
 
 # Load transactions and user segments from MySQL
-transactions_query = "SELECT * FROM capitalone360.capitalone_mock_transactions"
-segments_query = "SELECT * FROM capitalone360.capitalone_user_segments"
-tx_df = pd.read_sql(transactions_query, con=engine)
-user_segments_df = pd.read_sql(segments_query, con=engine)
+#transactions_query = "SELECT * FROM capitalone360.capitalone_mock_transactions"
+#segments_query = "SELECT * FROM capitalone360.capitalone_user_segments"
+tx_df = pd.read_csv("CapitalOne_Mock_Transactions.csv")
+user_segments_df = pd.read_csv("CapitalOne_User_Segments.csv")
+
 
 # Compute user-merchant matrix
 pivot_df = tx_df.pivot_table(index='User_ID', columns='Merchant', values='Amount', aggfunc='mean', fill_value=0)
