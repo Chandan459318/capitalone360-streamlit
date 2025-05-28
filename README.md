@@ -55,7 +55,7 @@ Ensure the following CSV files are present in the project directory:
 
 - **Python** (Pandas, NumPy, Scikit-learn)
 - **Streamlit** for the interactive dashboard
-- **Plotly / Matplotlib** (internal for graph generation)
+- **Matplotlib** (internal for graph generation)
 - **CSV** files as lightweight data source (MySQL optional)
 
 ---
