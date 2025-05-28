@@ -1,0 +1,1001 @@
+Transaction_ID,Date,Category,Merchant,Amount,Payment_Method,City,User_ID,High_Amount_Flag,Daily_Transactions,Rapid_Transaction_Flag,City_Change_Flag,Anomaly_Score,Anomaly_Flag,Fraud_Risk,City_Code,Merchant_Code,Anomaly_Pred,Anomaly_Flag_Tuned
+TXN00373,2024-01-01,Rent,Apartments.com,1248.06,Credit Card,Dallas,1000,True,2,False,True,1,0,True,1,4,-1,1
+TXN00639,2024-01-01,Gas,ExxonMobil,66.91,Debit Card,Chicago,1000,False,2,False,True,1,0,True,0,10,1,0
+TXN00840,2024-01-02,Travel,Uber,156.18,Debit Card,Chicago,1000,False,1,False,False,1,0,False,0,20,1,0
+TXN00617,2024-01-05,Restaurants,Chipotle,208.67,Debit Card,Chicago,1000,False,1,False,False,1,0,False,0,7,1,0
+TXN00969,2024-01-06,Restaurants,Chipotle,166.2,Debit Card,New York,1000,False,1,False,True,1,0,True,2,7,1,0
+TXN00907,2024-01-09,Shopping,eBay,194.03,Credit Card,San Francisco,1000,False,1,False,True,1,0,True,3,25,1,0
+TXN00748,2024-01-10,Groceries,Kroger,195.38,Debit Card,New York,1000,False,1,False,True,1,0,True,2,12,1,0
+TXN00881,2024-01-14,Restaurants,Chipotle,192.68,Debit Card,New York,1000,False,1,False,False,1,0,False,2,7,1,0
+TXN00914,2024-01-15,Entertainment,AMC Theatres,217.56,Debit Card,Chicago,1000,False,1,False,True,1,0,True,0,0,1,0
+TXN00820,2024-01-27,Groceries,Walmart,209.11,Credit Card,New York,1000,False,1,False,True,1,0,True,2,22,1,0
+TXN00110,2024-01-28,Healthcare,HealthPlus,129.34,Debit Card,Chicago,1000,False,1,False,True,1,0,True,0,11,1,0
+TXN00042,2024-01-30,Travel,Delta,102.87,Debit Card,San Francisco,1000,False,2,False,True,1,0,True,3,9,1,0
+TXN00192,2024-01-30,Travel,Airbnb,222.62,Debit Card,New York,1000,False,2,False,True,1,0,True,2,2,1,0
+TXN00488,2024-02-01,Healthcare,CVS,231.31,Debit Card,Seattle,1000,False,1,False,True,1,0,True,4,5,1,0
+TXN00094,2024-02-02,Restaurants,McDonalds,181.06,Debit Card,New York,1000,False,1,False,True,1,0,True,2,13,1,0
+TXN00809,2024-02-03,Rent,Zillow Rentals,1119.29,Credit Card,Dallas,1000,True,1,False,True,1,0,True,1,24,1,0
+TXN00985,2024-02-04,Healthcare,HealthPlus,44.22,Debit Card,Dallas,1000,False,1,False,False,1,0,False,1,11,1,0
+TXN00330,2024-02-07,Groceries,Whole Foods,229.97,Debit Card,San Francisco,1000,False,1,False,True,1,0,True,3,23,1,0
+TXN00089,2024-02-16,Restaurants,Chipotle,220.31,Credit Card,Dallas,1000,False,1,False,True,1,0,True,1,7,1,0
+TXN00588,2024-02-18,Restaurants,Chipotle,210.74,Debit Card,Chicago,1000,False,1,False,True,1,0,True,0,7,1,0
+TXN00675,2024-02-20,Shopping,Target,127.7,Debit Card,Seattle,1000,False,1,False,True,1,0,True,4,19,1,0
+TXN00762,2024-02-24,Utilities,TXU Energy,76.61,Debit Card,New York,1000,False,1,False,True,1,0,True,2,18,1,0
+TXN00843,2024-02-26,Groceries,Kroger,14.65,Credit Card,San Francisco,1000,False,1,False,True,1,0,True,3,12,1,0
+TXN00015,2024-03-03,Entertainment,Netflix,227.39,Debit Card,Dallas,1000,False,1,False,True,1,0,True,1,14,1,0
+TXN00505,2024-03-08,Rent,Zillow Rentals,840.92,Debit Card,San Francisco,1000,True,1,False,True,1,0,True,3,24,1,0
+TXN00299,2024-03-17,Healthcare,HealthPlus,194.53,Credit Card,Dallas,1000,False,1,False,True,1,0,True,1,11,1,0
+TXN00013,2024-03-23,Utilities,Comcast,46.81,Credit Card,San Francisco,1000,False,2,False,True,1,0,True,3,8,1,0
+TXN00206,2024-03-23,Travel,Delta,117.96,Credit Card,Dallas,1000,False,2,False,True,1,0,True,1,9,1,0
+TXN00730,2024-03-28,Shopping,Target,206.11,Debit Card,San Francisco,1000,False,2,False,True,1,0,True,3,19,1,0
+TXN00931,2024-03-28,Restaurants,McDonalds,224.9,Credit Card,Seattle,1000,False,2,False,True,1,0,True,4,13,1,0
+TXN00130,2024-04-04,Restaurants,Starbucks,104.1,Credit Card,Seattle,1000,False,1,False,False,1,0,False,4,17,1,0
+TXN00182,2024-04-09,Gas,ExxonMobil,14.98,Credit Card,San Francisco,1000,False,1,False,True,1,0,True,3,10,1,0
+TXN00672,2024-04-13,Restaurants,Chipotle,101.6,Credit Card,Seattle,1000,False,1,False,True,1,0,True,4,7,1,0
+TXN00359,2024-04-17,Gas,Chevron,51.87,Debit Card,Dallas,1000,False,1,False,True,1,0,True,1,6,1,0
+TXN00700,2024-04-25,Groceries,Whole Foods,163.72,Debit Card,San Francisco,1000,False,1,False,True,1,0,True,3,23,1,0
+TXN00294,2024-04-30,Entertainment,Spotify,214.21,Credit Card,Seattle,1000,False,1,False,True,1,0,True,4,16,1,0
+TXN00313,2024-01-01,Groceries,Whole Foods,144.64,Debit Card,Dallas,1001,False,2,False,True,1,0,True,1,23,1,0
+TXN00727,2024-01-01,Entertainment,AMC Theatres,49.25,Credit Card,Chicago,1001,False,2,False,True,1,0,True,0,0,1,0
+TXN00800,2024-01-04,Rent,Apartments.com,1240.44,Credit Card,Dallas,1001,True,1,False,True,1,0,True,1,4,1,0
+TXN00624,2024-01-11,Groceries,Walmart,23.42,Debit Card,San Francisco,1001,False,1,False,True,1,0,True,3,22,1,0
+TXN00851,2024-01-12,Gas,Shell,159.41,Debit Card,Chicago,1001,False,1,False,True,1,0,True,0,15,1,0
+TXN00272,2024-01-14,Rent,Zillow Rentals,1061.45,Credit Card,Dallas,1001,True,1,False,True,1,0,True,1,24,1,0
+TXN00339,2024-01-18,Restaurants,Starbucks,91.29,Credit Card,New York,1001,False,1,False,True,1,0,True,2,17,1,0
+TXN00508,2024-01-19,Rent,Apartments.com,1171.09,Debit Card,New York,1001,True,3,False,False,-1,1,True,2,4,-1,1
+TXN00555,2024-01-19,Groceries,Walmart,129.29,Debit Card,Seattle,1001,False,3,False,True,1,0,True,4,22,-1,1
+TXN00930,2024-01-19,Groceries,Whole Foods,232.53,Credit Card,Chicago,1001,False,3,False,True,1,0,True,0,23,-1,1
+TXN00863,2024-01-24,Healthcare,Walgreens,181.47,Debit Card,New York,1001,False,1,False,True,1,0,True,2,21,1,0
+TXN00612,2024-01-27,Utilities,TXU Energy,198.97,Credit Card,San Francisco,1001,False,1,False,True,1,0,True,3,18,1,0
+TXN00998,2024-01-28,Groceries,Kroger,205.57,Credit Card,Chicago,1001,False,1,False,True,1,0,True,0,12,1,0
+TXN00779,2024-01-29,Healthcare,Walgreens,188.09,Credit Card,New York,1001,False,1,False,True,1,0,True,2,21,1,0
+TXN00456,2024-02-01,Travel,Airbnb,133.22,Credit Card,San Francisco,1001,False,1,False,True,1,0,True,3,2,1,0
+TXN00593,2024-02-02,Shopping,Amazon,228.14,Debit Card,Dallas,1001,False,1,False,True,1,0,True,1,3,1,0
+TXN00846,2024-02-03,Rent,Apartments.com,879.3,Debit Card,New York,1001,True,1,False,True,1,0,True,2,4,1,0
+TXN00744,2024-02-08,Gas,Chevron,227.0,Debit Card,Chicago,1001,False,1,False,True,1,0,True,0,6,1,0
+TXN00576,2024-02-14,Entertainment,AMC Theatres,189.11,Debit Card,San Francisco,1001,False,1,False,True,1,0,True,3,0,1,0
+TXN00687,2024-02-16,Utilities,TXU Energy,190.96,Debit Card,Chicago,1001,False,1,False,True,1,0,True,0,18,1,0
+TXN00877,2024-02-19,Healthcare,HealthPlus,198.04,Credit Card,San Francisco,1001,False,1,False,True,1,0,True,3,11,1,0
+TXN00913,2024-02-20,Groceries,Walmart,157.81,Credit Card,Chicago,1001,False,1,False,True,1,0,True,0,22,1,0
+TXN00468,2024-02-23,Rent,Zillow Rentals,1154.33,Debit Card,New York,1001,True,2,False,True,1,0,True,2,24,1,0
+TXN00835,2024-02-23,Healthcare,Walgreens,72.15,Credit Card,Seattle,1001,False,2,False,True,1,0,True,4,21,1,0
+TXN00635,2024-02-24,Utilities,TXU Energy,123.64,Debit Card,Seattle,1001,False,1,False,False,1,0,False,4,18,1,0
+TXN00702,2024-02-25,Gas,ExxonMobil,227.48,Credit Card,Seattle,1001,False,1,False,False,1,0,False,4,10,1,0
+TXN00016,2024-02-26,Rent,Zillow Rentals,1210.08,Credit Card,New York,1001,True,2,False,True,1,0,True,2,24,-1,1
+TXN00611,2024-02-26,Utilities,TXU Energy,156.39,Credit Card,Seattle,1001,False,2,False,True,1,0,True,4,18,1,0
+TXN00025,2024-02-29,Utilities,TXU Energy,90.49,Credit Card,Dallas,1001,False,1,False,True,1,0,True,1,18,1,0
+TXN00560,2024-03-02,Entertainment,AMC Theatres,90.3,Debit Card,New York,1001,False,1,False,True,1,0,True,2,0,1,0
+TXN00536,2024-03-08,Healthcare,HealthPlus,190.67,Debit Card,San Francisco,1001,False,1,False,True,1,0,True,3,11,1,0
+TXN00283,2024-03-12,Rent,Zillow Rentals,810.68,Debit Card,Seattle,1001,True,1,False,True,1,0,True,4,24,1,0
+TXN00152,2024-03-19,Shopping,Target,163.79,Credit Card,Chicago,1001,False,1,False,True,1,0,True,0,19,1,0
+TXN00178,2024-03-21,Rent,Apartments.com,945.43,Credit Card,New York,1001,True,1,False,True,1,0,True,2,4,1,0
+TXN00244,2024-03-26,Restaurants,Starbucks,248.07,Debit Card,San Francisco,1001,False,1,False,True,1,0,True,3,17,1,0
+TXN00248,2024-03-27,Gas,Chevron,44.98,Credit Card,Seattle,1001,False,2,False,True,1,0,True,4,6,1,0
+TXN00622,2024-03-27,Groceries,Walmart,92.79,Debit Card,San Francisco,1001,False,2,False,True,1,0,True,3,22,1,0
+TXN00966,2024-03-28,Travel,Uber,50.58,Credit Card,Dallas,1001,False,1,False,True,1,0,True,1,20,1,0
+TXN00229,2024-04-02,Healthcare,Walgreens,150.95,Credit Card,San Francisco,1001,False,1,False,True,1,0,True,3,21,1,0
+TXN00936,2024-04-03,Entertainment,AMC Theatres,146.07,Credit Card,San Francisco,1001,False,1,False,False,1,0,False,3,0,1,0
+TXN00184,2024-04-05,Restaurants,Chipotle,40.48,Debit Card,Chicago,1001,False,1,False,True,1,0,True,0,7,1,0
+TXN00115,2024-04-09,Utilities,AT&T,74.38,Credit Card,Dallas,1001,False,2,False,True,1,0,True,1,1,1,0
+TXN00521,2024-04-09,Gas,Chevron,24.89,Debit Card,Chicago,1001,False,2,False,True,1,0,True,0,6,1,0
+TXN00465,2024-04-16,Rent,Apartments.com,1278.51,Debit Card,New York,1001,True,1,False,True,1,0,True,2,4,1,0
+TXN00587,2024-01-01,Travel,Airbnb,206.15,Credit Card,Seattle,1002,False,1,False,True,1,0,True,4,2,1,0
+TXN00149,2024-01-11,Shopping,Target,56.16,Credit Card,New York,1002,False,1,False,True,1,0,True,2,19,1,0
+TXN00605,2024-01-13,Utilities,AT&T,124.52,Debit Card,Seattle,1002,False,1,False,True,1,0,True,4,1,1,0
+TXN00256,2024-01-14,Healthcare,CVS,22.09,Credit Card,New York,1002,False,1,False,True,1,0,True,2,5,1,0
+TXN00681,2024-01-15,Groceries,Walmart,152.43,Debit Card,Dallas,1002,False,1,False,True,1,0,True,1,22,1,0
+TXN00804,2024-01-20,Travel,Delta,60.11,Debit Card,Dallas,1002,False,2,False,False,1,0,False,1,9,1,0
+TXN00870,2024-01-20,Restaurants,Starbucks,190.34,Debit Card,Chicago,1002,False,2,False,True,1,0,True,0,17,1,0
+TXN00084,2024-01-21,Gas,ExxonMobil,222.13,Debit Card,New York,1002,False,2,False,True,1,0,True,2,10,1,0
+TXN00739,2024-01-21,Travel,Airbnb,145.98,Debit Card,Dallas,1002,False,2,False,True,1,0,True,1,2,1,0
+TXN00107,2024-01-23,Groceries,Kroger,210.0,Credit Card,Chicago,1002,False,3,False,True,1,0,True,0,12,1,0
+TXN00324,2024-01-23,Gas,Chevron,215.03,Credit Card,Seattle,1002,False,3,False,True,1,0,True,4,6,1,0
+TXN00352,2024-01-23,Healthcare,HealthPlus,166.71,Credit Card,Seattle,1002,False,3,False,False,1,0,False,4,11,1,0
+TXN00040,2024-01-27,Shopping,Target,89.91,Credit Card,New York,1002,False,1,False,True,1,0,True,2,19,1,0
+TXN00630,2024-01-29,Rent,Apartments.com,1257.12,Debit Card,San Francisco,1002,True,2,False,True,1,0,True,3,4,1,0
+TXN00703,2024-01-29,Healthcare,HealthPlus,82.55,Credit Card,New York,1002,False,2,False,True,1,0,True,2,11,1,0
+TXN00105,2024-01-30,Utilities,TXU Energy,231.11,Credit Card,San Francisco,1002,False,2,False,True,1,0,True,3,18,1,0
+TXN00504,2024-01-30,Entertainment,Netflix,86.55,Debit Card,Dallas,1002,False,2,False,True,1,0,True,1,14,1,0
+TXN00589,2024-01-31,Gas,ExxonMobil,236.41,Credit Card,Seattle,1002,False,1,False,True,1,0,True,4,10,1,0
+TXN00883,2024-02-02,Restaurants,Starbucks,99.44,Credit Card,Chicago,1002,False,1,False,True,1,0,True,0,17,1,0
+TXN00466,2024-02-08,Groceries,Kroger,152.54,Debit Card,Seattle,1002,False,1,False,True,1,0,True,4,12,1,0
+TXN00976,2024-02-10,Groceries,Kroger,168.54,Debit Card,New York,1002,False,1,False,True,1,0,True,2,12,1,0
+TXN00321,2024-02-11,Healthcare,Walgreens,218.3,Credit Card,San Francisco,1002,False,1,False,True,1,0,True,3,21,1,0
+TXN00378,2024-02-13,Travel,Delta,67.71,Credit Card,New York,1002,False,1,False,True,1,0,True,2,9,1,0
+TXN00750,2024-02-22,Rent,Apartments.com,831.89,Debit Card,Chicago,1002,True,1,False,True,1,0,True,0,4,1,0
+TXN00054,2024-02-24,Groceries,Whole Foods,87.11,Credit Card,Seattle,1002,False,1,False,True,1,0,True,4,23,1,0
+TXN00189,2024-03-02,Shopping,Amazon,19.93,Credit Card,Dallas,1002,False,2,False,True,1,0,True,1,3,1,0
+TXN00217,2024-03-02,Entertainment,AMC Theatres,227.43,Debit Card,Seattle,1002,False,2,False,True,1,0,True,4,0,1,0
+TXN00460,2024-03-05,Restaurants,Starbucks,113.6,Debit Card,Dallas,1002,False,1,False,True,1,0,True,1,17,1,0
+TXN00584,2024-03-09,Groceries,Whole Foods,215.11,Credit Card,Dallas,1002,False,1,False,False,1,0,False,1,23,1,0
+TXN00981,2024-03-11,Shopping,Amazon,159.88,Debit Card,Chicago,1002,False,1,False,True,1,0,True,0,3,1,0
+TXN00733,2024-03-15,Healthcare,Walgreens,170.49,Credit Card,New York,1002,False,1,False,True,1,0,True,2,21,1,0
+TXN00311,2024-03-17,Travel,Delta,177.04,Debit Card,Seattle,1002,False,1,False,True,1,0,True,4,9,1,0
+TXN00397,2024-03-20,Shopping,Amazon,178.14,Debit Card,Chicago,1002,False,1,False,True,1,0,True,0,3,1,0
+TXN00861,2024-03-21,Entertainment,Spotify,151.0,Credit Card,Seattle,1002,False,2,False,True,1,0,True,4,16,1,0
+TXN00960,2024-03-21,Rent,Zillow Rentals,1396.49,Credit Card,Chicago,1002,True,2,False,True,-1,1,True,0,24,-1,1
+TXN00086,2024-03-23,Healthcare,HealthPlus,158.98,Credit Card,Dallas,1002,False,2,False,True,1,0,True,1,11,1,0
+TXN00123,2024-03-23,Travel,Uber,184.45,Debit Card,Dallas,1002,False,2,False,False,1,0,False,1,20,1,0
+TXN00496,2024-03-29,Travel,Uber,120.78,Debit Card,San Francisco,1002,False,1,False,True,1,0,True,3,20,1,0
+TXN00871,2024-04-01,Healthcare,CVS,222.31,Debit Card,Chicago,1002,False,1,False,True,1,0,True,0,5,1,0
+TXN00656,2024-04-04,Healthcare,Walgreens,238.22,Credit Card,Chicago,1002,False,1,False,False,1,0,False,0,21,1,0
+TXN00535,2024-04-05,Shopping,eBay,215.66,Credit Card,Chicago,1002,False,2,False,False,1,0,False,0,25,1,0
+TXN00765,2024-04-05,Groceries,Kroger,185.73,Credit Card,Seattle,1002,False,2,False,True,1,0,True,4,12,1,0
+TXN00482,2024-04-07,Shopping,Target,249.21,Credit Card,Seattle,1002,False,1,False,False,1,0,False,4,19,1,0
+TXN00783,2024-04-08,Entertainment,Netflix,86.2,Credit Card,Chicago,1002,False,1,False,True,1,0,True,0,14,1,0
+TXN00351,2024-04-09,Travel,Delta,52.4,Debit Card,Dallas,1002,False,1,False,True,1,0,True,1,9,1,0
+TXN00878,2024-04-11,Restaurants,McDonalds,168.13,Credit Card,New York,1002,False,1,False,True,1,0,True,2,13,1,0
+TXN00239,2024-04-17,Healthcare,Walgreens,84.01,Debit Card,San Francisco,1002,False,1,False,True,1,0,True,3,21,1,0
+TXN00452,2024-04-19,Gas,ExxonMobil,211.21,Credit Card,Seattle,1002,False,1,False,True,1,0,True,4,10,1,0
+TXN00557,2024-04-23,Shopping,Target,237.89,Credit Card,San Francisco,1002,False,2,False,True,1,0,True,3,19,1,0
+TXN00959,2024-04-23,Restaurants,Chipotle,188.64,Debit Card,Seattle,1002,False,2,False,True,1,0,True,4,7,1,0
+TXN00803,2024-04-24,Rent,Apartments.com,873.96,Credit Card,Dallas,1002,True,1,False,True,1,0,True,1,4,1,0
+TXN00650,2024-04-25,Rent,Zillow Rentals,1094.09,Debit Card,San Francisco,1002,True,1,False,True,1,0,True,3,24,1,0
+TXN00764,2024-04-26,Shopping,Target,90.17,Credit Card,San Francisco,1002,False,1,False,False,1,0,False,3,19,1,0
+TXN00426,2024-01-01,Utilities,AT&T,151.04,Debit Card,Seattle,1003,False,1,False,True,1,0,True,4,1,1,0
+TXN00008,2024-01-03,Groceries,Kroger,208.63,Credit Card,Chicago,1003,False,1,False,True,1,0,True,0,12,1,0
+TXN00854,2024-01-04,Utilities,Comcast,60.62,Credit Card,Chicago,1003,False,1,False,False,1,0,False,0,8,1,0
+TXN00528,2024-01-05,Gas,ExxonMobil,133.46,Credit Card,San Francisco,1003,False,1,False,True,1,0,True,3,10,1,0
+TXN00102,2024-01-15,Healthcare,HealthPlus,54.9,Debit Card,San Francisco,1003,False,1,False,False,1,0,False,3,11,1,0
+TXN00079,2024-01-20,Groceries,Whole Foods,239.75,Credit Card,San Francisco,1003,False,1,False,False,1,0,False,3,23,1,0
+TXN00235,2024-01-22,Utilities,AT&T,90.53,Credit Card,Dallas,1003,False,2,False,True,1,0,True,1,1,1,0
+TXN00565,2024-01-22,Shopping,Target,39.6,Credit Card,Seattle,1003,False,2,False,True,1,0,True,4,19,1,0
+TXN00577,2024-01-26,Utilities,AT&T,8.86,Credit Card,San Francisco,1003,False,1,False,True,1,0,True,3,1,1,0
+TXN00616,2024-01-27,Healthcare,CVS,182.35,Credit Card,New York,1003,False,1,False,True,1,0,True,2,5,1,0
+TXN00707,2024-01-29,Rent,Zillow Rentals,1111.88,Debit Card,San Francisco,1003,True,1,False,True,1,0,True,3,24,1,0
+TXN00035,2024-01-30,Shopping,Amazon,25.25,Debit Card,Seattle,1003,False,2,False,True,1,0,True,4,3,1,0
+TXN00474,2024-01-30,Travel,Airbnb,211.49,Credit Card,New York,1003,False,2,False,True,1,0,True,2,2,1,0
+TXN00138,2024-01-31,Utilities,AT&T,209.51,Debit Card,Chicago,1003,False,2,False,True,1,0,True,0,1,1,0
+TXN00309,2024-01-31,Shopping,eBay,164.11,Credit Card,Chicago,1003,False,2,False,False,1,0,False,0,25,1,0
+TXN00278,2024-02-01,Restaurants,Starbucks,102.52,Debit Card,Dallas,1003,False,1,False,True,1,0,True,1,17,1,0
+TXN00303,2024-02-05,Gas,ExxonMobil,107.87,Debit Card,New York,1003,False,1,False,True,1,0,True,2,10,1,0
+TXN00961,2024-02-07,Healthcare,HealthPlus,126.93,Credit Card,New York,1003,False,1,False,False,1,0,False,2,11,1,0
+TXN00014,2024-02-08,Utilities,AT&T,180.58,Credit Card,Dallas,1003,False,1,False,True,1,0,True,1,1,1,0
+TXN00735,2024-02-10,Rent,Apartments.com,1086.21,Debit Card,Chicago,1003,True,1,False,True,1,0,True,0,4,1,0
+TXN00651,2024-02-11,Healthcare,CVS,99.78,Credit Card,Seattle,1003,False,1,False,True,1,0,True,4,5,1,0
+TXN00957,2024-02-15,Healthcare,HealthPlus,170.08,Debit Card,San Francisco,1003,False,1,False,True,1,0,True,3,11,1,0
+TXN00116,2024-02-18,Utilities,AT&T,79.46,Debit Card,Chicago,1003,False,1,False,True,1,0,True,0,1,1,0
+TXN00515,2024-02-19,Gas,Chevron,113.13,Credit Card,Chicago,1003,False,1,False,False,1,0,False,0,6,1,0
+TXN00731,2024-02-23,Healthcare,CVS,179.97,Debit Card,San Francisco,1003,False,1,False,True,1,0,True,3,5,1,0
+TXN00111,2024-02-25,Utilities,Comcast,20.89,Credit Card,New York,1003,False,1,False,True,1,0,True,2,8,1,0
+TXN00507,2024-02-29,Shopping,Amazon,208.41,Debit Card,New York,1003,False,2,False,False,1,0,False,2,3,1,0
+TXN00780,2024-02-29,Gas,Chevron,22.81,Credit Card,Seattle,1003,False,2,False,True,1,0,True,4,6,1,0
+TXN00626,2024-03-01,Shopping,Target,74.57,Debit Card,Seattle,1003,False,1,False,False,1,0,False,4,19,1,0
+TXN00833,2024-03-13,Shopping,Amazon,246.17,Credit Card,Seattle,1003,False,1,False,False,1,0,False,4,3,1,0
+TXN00660,2024-03-17,Gas,Shell,38.61,Credit Card,Dallas,1003,False,1,False,True,1,0,True,1,15,1,0
+TXN00666,2024-03-18,Healthcare,Walgreens,226.16,Debit Card,Seattle,1003,False,1,False,True,1,0,True,4,21,1,0
+TXN00566,2024-03-23,Shopping,eBay,30.59,Credit Card,Dallas,1003,False,1,False,True,1,0,True,1,25,1,0
+TXN00031,2024-03-24,Utilities,AT&T,30.3,Credit Card,Seattle,1003,False,1,False,True,1,0,True,4,1,1,0
+TXN00009,2024-03-26,Healthcare,CVS,72.63,Credit Card,Seattle,1003,False,1,False,False,1,0,False,4,5,1,0
+TXN00799,2024-03-27,Healthcare,HealthPlus,106.65,Debit Card,Dallas,1003,False,1,False,True,1,0,True,1,11,1,0
+TXN00655,2024-04-03,Restaurants,McDonalds,214.52,Debit Card,Chicago,1003,False,1,False,True,1,0,True,0,13,1,0
+TXN00117,2024-04-11,Utilities,TXU Energy,222.16,Debit Card,Dallas,1003,False,1,False,True,1,0,True,1,18,1,0
+TXN00433,2024-04-20,Gas,Shell,163.61,Debit Card,Seattle,1003,False,1,False,True,1,0,True,4,15,1,0
+TXN00045,2024-04-21,Utilities,TXU Energy,179.73,Debit Card,Seattle,1003,False,1,False,False,1,0,False,4,18,1,0
+TXN00491,2024-04-24,Entertainment,Netflix,137.22,Credit Card,San Francisco,1003,False,1,False,True,1,0,True,3,14,1,0
+TXN00250,2024-04-28,Healthcare,CVS,45.85,Credit Card,New York,1003,False,1,False,True,1,0,True,2,5,1,0
+TXN00406,2024-04-29,Healthcare,HealthPlus,71.12,Credit Card,Chicago,1003,False,1,False,True,1,0,True,0,11,1,0
+TXN00987,2024-01-03,Rent,Zillow Rentals,1261.53,Credit Card,Seattle,1004,True,1,False,True,1,0,True,4,24,1,0
+TXN00887,2024-01-05,Shopping,Target,62.27,Debit Card,New York,1004,False,1,False,True,1,0,True,2,19,1,0
+TXN00710,2024-01-10,Travel,Uber,21.84,Credit Card,Dallas,1004,False,1,False,True,1,0,True,1,20,1,0
+TXN00203,2024-01-15,Rent,Zillow Rentals,1484.99,Credit Card,Seattle,1004,True,2,False,True,-1,1,True,4,24,-1,1
+TXN00579,2024-01-15,Entertainment,Netflix,149.07,Credit Card,San Francisco,1004,False,2,False,True,1,0,True,3,14,1,0
+TXN00034,2024-01-17,Gas,Chevron,232.15,Credit Card,New York,1004,False,1,False,True,1,0,True,2,6,1,0
+TXN00188,2024-01-18,Gas,Chevron,218.97,Credit Card,New York,1004,False,2,False,False,1,0,False,2,6,1,0
+TXN00450,2024-01-18,Shopping,Amazon,156.01,Credit Card,San Francisco,1004,False,2,False,True,1,0,True,3,3,1,0
+TXN00855,2024-01-19,Shopping,eBay,164.84,Credit Card,San Francisco,1004,False,1,False,False,1,0,False,3,25,1,0
+TXN00264,2024-01-23,Entertainment,AMC Theatres,233.57,Credit Card,Seattle,1004,False,1,False,True,1,0,True,4,0,1,0
+TXN00603,2024-01-25,Travel,Delta,47.07,Debit Card,San Francisco,1004,False,1,False,True,1,0,True,3,9,1,0
+TXN00525,2024-01-28,Rent,Apartments.com,811.08,Debit Card,San Francisco,1004,True,1,False,False,1,0,True,3,4,1,0
+TXN00312,2024-01-30,Rent,Zillow Rentals,1067.41,Credit Card,Chicago,1004,True,1,False,True,1,0,True,0,24,1,0
+TXN00888,2024-02-04,Shopping,eBay,65.63,Debit Card,Chicago,1004,False,1,False,False,1,0,False,0,25,1,0
+TXN00122,2024-02-06,Rent,Zillow Rentals,1031.93,Debit Card,Chicago,1004,True,1,False,False,1,0,True,0,24,1,0
+TXN00209,2024-02-08,Healthcare,CVS,98.07,Credit Card,Seattle,1004,False,1,False,True,1,0,True,4,5,1,0
+TXN00977,2024-02-09,Entertainment,Spotify,156.09,Debit Card,Seattle,1004,False,1,False,False,1,0,False,4,16,1,0
+TXN00173,2024-02-13,Gas,ExxonMobil,8.54,Debit Card,Seattle,1004,False,2,False,False,1,0,False,4,10,1,0
+TXN00247,2024-02-13,Healthcare,HealthPlus,218.41,Debit Card,Chicago,1004,False,2,False,True,1,0,True,0,11,1,0
+TXN00172,2024-02-18,Gas,Chevron,47.33,Debit Card,San Francisco,1004,False,1,False,True,1,0,True,3,6,1,0
+TXN00262,2024-02-19,Utilities,TXU Energy,10.93,Debit Card,San Francisco,1004,False,1,False,False,1,0,False,3,18,1,0
+TXN00932,2024-02-23,Shopping,eBay,248.52,Debit Card,Dallas,1004,False,1,False,True,1,0,True,1,25,1,0
+TXN00405,2024-02-25,Healthcare,HealthPlus,208.2,Credit Card,San Francisco,1004,False,2,False,True,1,0,True,3,11,1,0
+TXN00559,2024-02-25,Shopping,Target,134.21,Debit Card,New York,1004,False,2,False,True,1,0,True,2,19,1,0
+TXN00486,2024-02-27,Travel,Airbnb,194.33,Debit Card,Seattle,1004,False,2,False,True,1,0,True,4,2,1,0
+TXN00777,2024-02-27,Shopping,eBay,216.47,Credit Card,San Francisco,1004,False,2,False,True,1,0,True,3,25,1,0
+TXN00923,2024-03-01,Entertainment,AMC Theatres,154.3,Debit Card,Seattle,1004,False,1,False,True,1,0,True,4,0,1,0
+TXN00601,2024-03-02,Gas,Shell,117.66,Credit Card,New York,1004,False,1,False,True,1,0,True,2,15,1,0
+TXN00453,2024-03-07,Gas,Shell,115.75,Credit Card,New York,1004,False,1,False,False,1,0,False,2,15,1,0
+TXN00104,2024-03-09,Restaurants,Starbucks,217.47,Credit Card,New York,1004,False,1,False,False,1,0,False,2,17,1,0
+TXN00191,2024-03-11,Travel,Uber,142.42,Debit Card,New York,1004,False,1,False,False,1,0,False,2,20,1,0
+TXN00597,2024-03-14,Gas,ExxonMobil,193.07,Debit Card,Dallas,1004,False,1,False,True,1,0,True,1,10,1,0
+TXN00415,2024-03-16,Groceries,Kroger,205.09,Debit Card,Dallas,1004,False,1,False,False,1,0,False,1,12,1,0
+TXN00363,2024-03-21,Restaurants,Chipotle,77.89,Credit Card,Chicago,1004,False,1,False,True,1,0,True,0,7,1,0
+TXN00274,2024-03-23,Gas,Shell,110.26,Credit Card,Seattle,1004,False,1,False,True,1,0,True,4,15,1,0
+TXN00163,2024-03-27,Shopping,Target,209.05,Credit Card,Chicago,1004,False,1,False,True,1,0,True,0,19,1,0
+TXN00128,2024-03-29,Gas,ExxonMobil,191.01,Debit Card,San Francisco,1004,False,1,False,True,1,0,True,3,10,1,0
+TXN00492,2024-03-31,Restaurants,McDonalds,95.1,Credit Card,New York,1004,False,1,False,True,1,0,True,2,13,1,0
+TXN00952,2024-04-01,Travel,Airbnb,39.76,Credit Card,Dallas,1004,False,1,False,True,1,0,True,1,2,1,0
+TXN00143,2024-04-03,Groceries,Walmart,168.36,Debit Card,Dallas,1004,False,2,False,False,1,0,False,1,22,1,0
+TXN00986,2024-04-03,Restaurants,McDonalds,6.88,Credit Card,San Francisco,1004,False,2,False,True,1,0,True,3,13,1,0
+TXN00916,2024-04-05,Shopping,Amazon,197.98,Debit Card,San Francisco,1004,False,1,False,False,1,0,False,3,3,1,0
+TXN00129,2024-04-06,Restaurants,Starbucks,37.73,Debit Card,New York,1004,False,1,False,True,1,0,True,2,17,1,0
+TXN00386,2024-04-08,Groceries,Walmart,236.3,Credit Card,New York,1004,False,1,False,False,1,0,False,2,22,1,0
+TXN00897,2024-04-10,Utilities,TXU Energy,243.43,Debit Card,Chicago,1004,False,1,False,True,1,0,True,0,18,1,0
+TXN00657,2024-04-11,Utilities,TXU Energy,55.52,Debit Card,New York,1004,False,2,False,True,1,0,True,2,18,1,0
+TXN00726,2024-04-11,Healthcare,Walgreens,171.97,Debit Card,Dallas,1004,False,2,False,True,1,0,True,1,21,1,0
+TXN00358,2024-04-13,Restaurants,Chipotle,176.29,Credit Card,Seattle,1004,False,1,False,True,1,0,True,4,7,1,0
+TXN00230,2024-04-17,Restaurants,McDonalds,36.69,Credit Card,Dallas,1004,False,2,False,True,1,0,True,1,13,1,0
+TXN00647,2024-04-17,Utilities,TXU Energy,45.82,Credit Card,Chicago,1004,False,2,False,True,1,0,True,0,18,1,0
+TXN00494,2024-04-20,Gas,ExxonMobil,225.9,Debit Card,San Francisco,1004,False,1,False,True,1,0,True,3,10,1,0
+TXN00404,2024-04-22,Restaurants,Chipotle,66.68,Credit Card,Seattle,1004,False,1,False,True,1,0,True,4,7,1,0
+TXN00575,2024-04-23,Rent,Zillow Rentals,1446.69,Credit Card,New York,1004,True,1,False,True,-1,1,True,2,24,-1,1
+TXN00541,2024-04-26,Shopping,eBay,218.93,Credit Card,Seattle,1004,False,3,False,True,1,0,True,4,25,-1,1
+TXN00679,2024-04-26,Travel,Airbnb,153.64,Credit Card,Chicago,1004,False,3,False,True,1,0,True,0,2,-1,1
+TXN00973,2024-04-26,Utilities,Comcast,193.46,Credit Card,Seattle,1004,False,3,False,True,1,0,True,4,8,1,0
+TXN00716,2024-04-28,Utilities,TXU Energy,242.01,Credit Card,New York,1004,False,1,False,True,1,0,True,2,18,1,0
+TXN00058,2024-01-01,Rent,Zillow Rentals,827.89,Credit Card,New York,1005,True,2,False,True,1,0,True,2,24,1,0
+TXN00892,2024-01-01,Restaurants,Chipotle,90.15,Credit Card,New York,1005,False,2,False,False,1,0,False,2,7,1,0
+TXN00385,2024-01-06,Healthcare,Walgreens,175.54,Credit Card,Seattle,1005,False,1,False,True,1,0,True,4,21,1,0
+TXN00618,2024-01-07,Rent,Apartments.com,1108.84,Credit Card,Dallas,1005,True,1,False,True,1,0,True,1,4,1,0
+TXN00368,2024-01-08,Groceries,Kroger,214.82,Debit Card,New York,1005,False,1,False,True,1,0,True,2,12,1,0
+TXN00789,2024-01-11,Gas,Shell,187.86,Credit Card,New York,1005,False,1,False,False,1,0,False,2,15,1,0
+TXN00582,2024-01-12,Utilities,AT&T,97.69,Credit Card,New York,1005,False,1,False,False,1,0,False,2,1,1,0
+TXN00828,2024-01-15,Healthcare,HealthPlus,177.12,Debit Card,Dallas,1005,False,1,False,True,1,0,True,1,11,1,0
+TXN00154,2024-01-16,Healthcare,HealthPlus,186.47,Debit Card,Seattle,1005,False,1,False,True,1,0,True,4,11,1,0
+TXN00569,2024-01-19,Groceries,Kroger,10.69,Debit Card,New York,1005,False,1,False,True,1,0,True,2,12,1,0
+TXN00667,2024-01-23,Entertainment,Spotify,220.78,Credit Card,New York,1005,False,1,False,False,1,0,False,2,16,1,0
+TXN00669,2024-01-25,Healthcare,Walgreens,148.33,Credit Card,Chicago,1005,False,2,False,True,1,0,True,0,21,1,0
+TXN00867,2024-01-25,Gas,Chevron,150.63,Debit Card,San Francisco,1005,False,2,False,True,1,0,True,3,6,1,0
+TXN00533,2024-01-27,Restaurants,McDonalds,186.06,Debit Card,San Francisco,1005,False,1,False,False,1,0,False,3,13,1,0
+TXN00751,2024-01-29,Utilities,TXU Energy,194.34,Debit Card,Dallas,1005,False,2,False,True,1,0,True,1,18,1,0
+TXN00794,2024-01-29,Entertainment,Netflix,145.55,Debit Card,San Francisco,1005,False,2,False,True,1,0,True,3,14,1,0
+TXN00847,2024-01-31,Gas,ExxonMobil,95.06,Debit Card,Dallas,1005,False,1,False,True,1,0,True,1,10,1,0
+TXN00632,2024-02-06,Restaurants,Starbucks,58.4,Debit Card,Dallas,1005,False,1,False,False,1,0,False,1,17,1,0
+TXN00222,2024-02-08,Shopping,Target,152.43,Credit Card,Dallas,1005,False,2,False,False,1,0,False,1,19,1,0
+TXN00362,2024-02-08,Healthcare,Walgreens,137.85,Debit Card,Seattle,1005,False,2,False,True,1,0,True,4,21,1,0
+TXN00668,2024-02-13,Gas,Shell,178.95,Debit Card,San Francisco,1005,False,1,False,True,1,0,True,3,15,1,0
+TXN00135,2024-02-16,Restaurants,Starbucks,86.62,Credit Card,Chicago,1005,False,1,False,True,1,0,True,0,17,1,0
+TXN00500,2024-02-25,Utilities,TXU Energy,166.23,Credit Card,San Francisco,1005,False,1,False,True,1,0,True,3,18,1,0
+TXN00297,2024-02-28,Gas,ExxonMobil,85.31,Credit Card,Seattle,1005,False,1,False,True,1,0,True,4,10,1,0
+TXN00797,2024-03-08,Gas,ExxonMobil,84.51,Debit Card,Dallas,1005,False,1,False,True,1,0,True,1,10,1,0
+TXN00384,2024-03-14,Restaurants,McDonalds,156.95,Credit Card,San Francisco,1005,False,1,False,True,1,0,True,3,13,1,0
+TXN00938,2024-03-15,Groceries,Walmart,123.77,Debit Card,Seattle,1005,False,1,False,True,1,0,True,4,22,1,0
+TXN00814,2024-03-16,Gas,ExxonMobil,141.21,Credit Card,Dallas,1005,False,1,False,True,1,0,True,1,10,1,0
+TXN00894,2024-03-18,Gas,Chevron,244.34,Debit Card,Seattle,1005,False,2,False,True,1,0,True,4,6,1,0
+TXN00926,2024-03-18,Gas,Shell,226.53,Debit Card,Seattle,1005,False,2,False,False,1,0,False,4,15,1,0
+TXN00179,2024-03-20,Gas,Shell,62.08,Credit Card,Dallas,1005,False,1,False,True,1,0,True,1,15,1,0
+TXN00145,2024-03-21,Entertainment,Spotify,175.44,Debit Card,Seattle,1005,False,2,False,True,1,0,True,4,16,1,0
+TXN00714,2024-03-21,Utilities,TXU Energy,228.07,Credit Card,New York,1005,False,2,False,True,1,0,True,2,18,1,0
+TXN00628,2024-03-27,Rent,Zillow Rentals,1135.26,Credit Card,Dallas,1005,True,2,False,True,1,0,True,1,24,-1,1
+TXN00826,2024-03-27,Shopping,Amazon,223.88,Debit Card,Chicago,1005,False,2,False,True,1,0,True,0,3,1,0
+TXN00625,2024-04-01,Utilities,Comcast,71.05,Credit Card,San Francisco,1005,False,1,False,True,1,0,True,3,8,1,0
+TXN00353,2024-04-02,Healthcare,HealthPlus,5.21,Credit Card,Dallas,1005,False,1,False,True,1,0,True,1,11,1,0
+TXN00444,2024-04-03,Utilities,AT&T,228.78,Credit Card,Seattle,1005,False,1,False,True,1,0,True,4,1,1,0
+TXN00948,2024-04-04,Groceries,Whole Foods,65.8,Debit Card,San Francisco,1005,False,1,False,True,1,0,True,3,23,1,0
+TXN00742,2024-04-06,Gas,ExxonMobil,154.86,Credit Card,Dallas,1005,False,1,False,True,1,0,True,1,10,1,0
+TXN00925,2024-04-09,Entertainment,Netflix,102.97,Credit Card,New York,1005,False,1,False,True,1,0,True,2,14,1,0
+TXN00344,2024-04-13,Entertainment,AMC Theatres,88.99,Credit Card,Chicago,1005,False,1,False,True,1,0,True,0,0,1,0
+TXN00097,2024-04-16,Groceries,Kroger,63.36,Debit Card,San Francisco,1005,False,1,False,True,1,0,True,3,12,1,0
+TXN00890,2024-04-20,Restaurants,Starbucks,98.23,Credit Card,Dallas,1005,False,1,False,True,1,0,True,1,17,1,0
+TXN00048,2024-04-24,Travel,Delta,72.24,Debit Card,New York,1005,False,3,False,True,1,0,True,2,9,1,0
+TXN00194,2024-04-24,Healthcare,CVS,122.25,Credit Card,Seattle,1005,False,3,False,True,1,0,True,4,5,-1,1
+TXN00747,2024-04-24,Gas,ExxonMobil,175.52,Credit Card,New York,1005,False,3,False,True,1,0,True,2,10,1,0
+TXN00101,2024-04-30,Healthcare,CVS,26.04,Debit Card,Dallas,1005,False,2,False,True,1,0,True,1,5,1,0
+TXN00443,2024-04-30,Travel,Delta,77.5,Debit Card,Chicago,1005,False,2,False,True,1,0,True,0,9,1,0
+TXN00012,2024-01-03,Groceries,Walmart,89.3,Debit Card,San Francisco,1006,False,1,False,True,1,0,True,3,22,1,0
+TXN00788,2024-01-04,Healthcare,Walgreens,77.16,Debit Card,Dallas,1006,False,1,False,True,1,0,True,1,21,1,0
+TXN00170,2024-01-06,Healthcare,CVS,106.77,Credit Card,San Francisco,1006,False,2,False,True,1,0,True,3,5,1,0
+TXN00286,2024-01-06,Travel,Delta,176.16,Debit Card,Seattle,1006,False,2,False,True,1,0,True,4,9,1,0
+TXN00677,2024-01-08,Groceries,Kroger,120.22,Debit Card,Dallas,1006,False,1,False,True,1,0,True,1,12,1,0
+TXN00093,2024-01-09,Entertainment,AMC Theatres,131.55,Debit Card,New York,1006,False,1,False,True,1,0,True,2,0,1,0
+TXN00723,2024-01-12,Utilities,AT&T,84.96,Debit Card,Dallas,1006,False,1,False,True,1,0,True,1,1,1,0
+TXN00106,2024-01-14,Healthcare,Walgreens,150.95,Credit Card,San Francisco,1006,False,2,False,True,1,0,True,3,21,1,0
+TXN00874,2024-01-14,Groceries,Kroger,188.46,Debit Card,Dallas,1006,False,2,False,True,1,0,True,1,12,1,0
+TXN00317,2024-01-17,Gas,Shell,242.91,Debit Card,Chicago,1006,False,1,False,True,1,0,True,0,15,1,0
+TXN00019,2024-01-18,Travel,Airbnb,44.3,Credit Card,Dallas,1006,False,1,False,True,1,0,True,1,2,1,0
+TXN00911,2024-01-20,Rent,Zillow Rentals,1383.65,Debit Card,San Francisco,1006,True,1,False,True,1,0,True,3,24,1,0
+TXN00962,2024-01-23,Groceries,Whole Foods,8.24,Debit Card,Chicago,1006,False,1,False,True,1,0,True,0,23,1,0
+TXN00602,2024-01-25,Entertainment,Spotify,235.83,Credit Card,Seattle,1006,False,1,False,True,1,0,True,4,16,1,0
+TXN00291,2024-01-26,Travel,Uber,83.02,Credit Card,New York,1006,False,2,False,True,1,0,True,2,20,1,0
+TXN00670,2024-01-26,Shopping,Amazon,9.72,Credit Card,Dallas,1006,False,2,False,True,1,0,True,1,3,1,0
+TXN00937,2024-01-30,Entertainment,AMC Theatres,127.28,Debit Card,Chicago,1006,False,1,False,True,1,0,True,0,0,1,0
+TXN00438,2024-02-01,Utilities,Comcast,244.7,Debit Card,Dallas,1006,False,1,False,True,1,0,True,1,8,1,0
+TXN00210,2024-02-05,Restaurants,Chipotle,125.24,Credit Card,Seattle,1006,False,1,False,True,1,0,True,4,7,1,0
+TXN00174,2024-02-08,Shopping,Target,52.87,Debit Card,New York,1006,False,2,False,True,1,0,True,2,19,1,0
+TXN00786,2024-02-08,Entertainment,AMC Theatres,173.47,Debit Card,Seattle,1006,False,2,False,True,1,0,True,4,0,1,0
+TXN00955,2024-02-12,Rent,Apartments.com,1083.29,Debit Card,New York,1006,True,1,False,True,1,0,True,2,4,1,0
+TXN00141,2024-02-16,Restaurants,Chipotle,55.85,Debit Card,Dallas,1006,False,2,False,True,1,0,True,1,7,1,0
+TXN00399,2024-02-16,Gas,ExxonMobil,126.97,Credit Card,Dallas,1006,False,2,False,False,1,0,False,1,10,1,0
+TXN00039,2024-02-17,Restaurants,Chipotle,67.76,Credit Card,Seattle,1006,False,1,False,True,1,0,True,4,7,1,0
+TXN00103,2024-02-22,Travel,Airbnb,90.47,Credit Card,San Francisco,1006,False,1,False,True,1,0,True,3,2,1,0
+TXN00519,2024-02-29,Entertainment,Netflix,133.09,Credit Card,Seattle,1006,False,1,False,True,1,0,True,4,14,1,0
+TXN00215,2024-03-01,Utilities,AT&T,183.07,Debit Card,Chicago,1006,False,1,False,True,1,0,True,0,1,1,0
+TXN00271,2024-03-04,Travel,Uber,219.0,Debit Card,San Francisco,1006,False,2,False,True,1,0,True,3,20,1,0
+TXN00678,2024-03-04,Travel,Airbnb,17.41,Debit Card,Chicago,1006,False,2,False,True,1,0,True,0,2,1,0
+TXN00185,2024-03-08,Travel,Airbnb,108.93,Credit Card,San Francisco,1006,False,3,False,True,1,0,True,3,2,1,0
+TXN00497,2024-03-08,Shopping,eBay,7.83,Credit Card,New York,1006,False,3,False,True,1,0,True,2,25,-1,1
+TXN00755,2024-03-08,Groceries,Kroger,127.48,Credit Card,New York,1006,False,3,False,False,1,0,False,2,12,1,0
+TXN00319,2024-03-19,Travel,Airbnb,56.4,Credit Card,Chicago,1006,False,2,False,True,1,0,True,0,2,1,0
+TXN00600,2024-03-19,Restaurants,Starbucks,171.21,Credit Card,Seattle,1006,False,2,False,True,1,0,True,4,17,1,0
+TXN00263,2024-03-20,Healthcare,CVS,218.28,Debit Card,Seattle,1006,False,1,False,False,1,0,False,4,5,1,0
+TXN00912,2024-03-25,Entertainment,AMC Theatres,229.79,Credit Card,New York,1006,False,1,False,True,1,0,True,2,0,1,0
+TXN00127,2024-03-28,Gas,Shell,36.24,Credit Card,New York,1006,False,2,False,False,1,0,False,2,15,1,0
+TXN00609,2024-03-28,Groceries,Walmart,132.01,Credit Card,Dallas,1006,False,2,False,True,1,0,True,1,22,1,0
+TXN00857,2024-03-29,Utilities,Comcast,28.15,Credit Card,Chicago,1006,False,2,False,True,1,0,True,0,8,1,0
+TXN00994,2024-03-29,Rent,Apartments.com,885.01,Credit Card,Seattle,1006,True,2,False,True,1,0,True,4,4,1,0
+TXN00549,2024-03-30,Rent,Zillow Rentals,1385.43,Credit Card,San Francisco,1006,True,1,False,True,1,0,True,3,24,1,0
+TXN00421,2024-04-11,Utilities,AT&T,188.71,Credit Card,Dallas,1006,False,1,False,True,1,0,True,1,1,1,0
+TXN00712,2024-04-16,Utilities,TXU Energy,7.21,Debit Card,New York,1006,False,1,False,True,1,0,True,2,18,1,0
+TXN00860,2024-04-25,Gas,Shell,141.81,Credit Card,San Francisco,1006,False,2,False,True,1,0,True,3,15,1,0
+TXN00965,2024-04-25,Restaurants,Starbucks,221.94,Credit Card,Seattle,1006,False,2,False,True,1,0,True,4,17,1,0
+TXN00276,2024-04-26,Utilities,AT&T,127.58,Debit Card,New York,1006,False,3,False,True,1,0,True,2,1,1,0
+TXN00558,2024-04-26,Rent,Apartments.com,1386.36,Debit Card,Dallas,1006,True,3,False,True,-1,1,True,1,4,-1,1
+TXN00749,2024-04-26,Restaurants,Starbucks,79.4,Credit Card,Chicago,1006,False,3,False,True,1,0,True,0,17,1,0
+TXN00081,2024-04-28,Healthcare,CVS,27.68,Credit Card,San Francisco,1006,False,1,False,True,1,0,True,3,5,1,0
+TXN00595,2024-01-03,Gas,Chevron,172.62,Debit Card,New York,1007,False,1,False,True,1,0,True,2,6,1,0
+TXN00711,2024-01-11,Shopping,Target,83.62,Debit Card,Chicago,1007,False,2,False,True,1,0,True,0,19,1,0
+TXN00850,2024-01-11,Healthcare,HealthPlus,33.23,Debit Card,New York,1007,False,2,False,True,1,0,True,2,11,1,0
+TXN00662,2024-01-18,Restaurants,McDonalds,203.97,Debit Card,New York,1007,False,1,False,False,1,0,False,2,13,1,0
+TXN00943,2024-01-19,Travel,Delta,128.09,Debit Card,New York,1007,False,1,False,False,1,0,False,2,9,1,0
+TXN00069,2024-01-20,Rent,Zillow Rentals,1299.43,Credit Card,Dallas,1007,True,1,False,True,1,0,True,1,24,1,0
+TXN00999,2024-01-22,Travel,Airbnb,152.04,Debit Card,Dallas,1007,False,1,False,False,1,0,False,1,2,1,0
+TXN00216,2024-01-25,Rent,Apartments.com,850.63,Credit Card,New York,1007,True,1,False,True,1,0,True,2,4,1,0
+TXN00989,2024-01-30,Restaurants,Starbucks,249.61,Credit Card,New York,1007,False,1,False,False,1,0,False,2,17,1,0
+TXN00725,2024-02-04,Entertainment,Spotify,73.43,Credit Card,Dallas,1007,False,1,False,True,1,0,True,1,16,1,0
+TXN00306,2024-02-08,Travel,Delta,147.02,Credit Card,Chicago,1007,False,2,False,True,1,0,True,0,9,1,0
+TXN00724,2024-02-08,Groceries,Whole Foods,52.27,Credit Card,New York,1007,False,2,False,True,1,0,True,2,23,1,0
+TXN00759,2024-02-12,Groceries,Walmart,157.77,Credit Card,Seattle,1007,False,1,False,True,1,0,True,4,22,1,0
+TXN00242,2024-02-14,Gas,ExxonMobil,178.42,Credit Card,New York,1007,False,1,False,True,1,0,True,2,10,1,0
+TXN00268,2024-02-18,Utilities,TXU Energy,206.92,Debit Card,Seattle,1007,False,2,False,True,1,0,True,4,18,1,0
+TXN00409,2024-02-18,Groceries,Kroger,188.38,Credit Card,Dallas,1007,False,2,False,True,1,0,True,1,12,1,0
+TXN00333,2024-02-19,Travel,Uber,87.62,Credit Card,San Francisco,1007,False,2,False,True,1,0,True,3,20,1,0
+TXN00845,2024-02-19,Healthcare,CVS,39.29,Credit Card,San Francisco,1007,False,2,False,False,1,0,False,3,5,1,0
+TXN00007,2024-02-26,Healthcare,HealthPlus,72.95,Debit Card,San Francisco,1007,False,1,False,False,1,0,False,3,11,1,0
+TXN00273,2024-02-27,Gas,Chevron,150.33,Debit Card,Seattle,1007,False,1,False,True,1,0,True,4,6,1,0
+TXN00869,2024-02-28,Entertainment,AMC Theatres,224.19,Debit Card,New York,1007,False,1,False,True,1,0,True,2,0,1,0
+TXN00026,2024-03-01,Groceries,Walmart,40.13,Debit Card,Dallas,1007,False,1,False,True,1,0,True,1,22,1,0
+TXN00732,2024-03-03,Entertainment,Netflix,39.56,Debit Card,Chicago,1007,False,1,False,True,1,0,True,0,14,1,0
+TXN00997,2024-03-04,Restaurants,Starbucks,200.22,Debit Card,Seattle,1007,False,1,False,True,1,0,True,4,17,1,0
+TXN00567,2024-03-05,Travel,Delta,174.85,Credit Card,New York,1007,False,2,False,True,1,0,True,2,9,1,0
+TXN00816,2024-03-05,Utilities,AT&T,182.09,Debit Card,Seattle,1007,False,2,False,True,1,0,True,4,1,1,0
+TXN00455,2024-03-14,Groceries,Kroger,109.14,Credit Card,New York,1007,False,3,False,True,1,0,True,2,12,1,0
+TXN00537,2024-03-14,Entertainment,Spotify,18.4,Credit Card,New York,1007,False,3,False,False,1,0,False,2,16,1,0
+TXN00736,2024-03-14,Healthcare,Walgreens,61.99,Credit Card,San Francisco,1007,False,3,False,True,1,0,True,3,21,1,0
+TXN00552,2024-03-16,Utilities,AT&T,173.51,Credit Card,San Francisco,1007,False,2,False,False,1,0,False,3,1,1,0
+TXN00604,2024-03-16,Utilities,Comcast,125.62,Debit Card,San Francisco,1007,False,2,False,False,1,0,False,3,8,1,0
+TXN00136,2024-03-17,Entertainment,Spotify,75.21,Debit Card,Seattle,1007,False,2,False,True,1,0,True,4,16,1,0
+TXN00698,2024-03-17,Shopping,Amazon,159.74,Debit Card,Dallas,1007,False,2,False,True,1,0,True,1,3,1,0
+TXN00554,2024-03-18,Gas,Shell,12.42,Credit Card,Dallas,1007,False,1,False,False,1,0,False,1,15,1,0
+TXN00119,2024-03-19,Travel,Airbnb,152.91,Debit Card,Seattle,1007,False,3,False,True,1,0,True,4,2,-1,1
+TXN00298,2024-03-19,Travel,Uber,58.74,Debit Card,Chicago,1007,False,3,False,True,1,0,True,0,20,1,0
+TXN00643,2024-03-19,Entertainment,AMC Theatres,225.95,Credit Card,Chicago,1007,False,3,False,False,1,0,False,0,0,-1,1
+TXN00517,2024-03-30,Utilities,AT&T,184.92,Debit Card,San Francisco,1007,False,1,False,True,1,0,True,3,1,1,0
+TXN00470,2024-04-02,Rent,Zillow Rentals,1062.56,Credit Card,Dallas,1007,True,1,False,True,1,0,True,1,24,1,0
+TXN00633,2024-04-05,Groceries,Kroger,55.94,Debit Card,Chicago,1007,False,1,False,True,1,0,True,0,12,1,0
+TXN00131,2024-04-06,Shopping,Amazon,145.12,Credit Card,New York,1007,False,1,False,True,1,0,True,2,3,1,0
+TXN00161,2024-04-09,Healthcare,CVS,238.92,Debit Card,New York,1007,False,1,False,False,1,0,False,2,5,1,0
+TXN00361,2024-04-10,Gas,Chevron,76.05,Credit Card,Chicago,1007,False,2,False,True,1,0,True,0,6,1,0
+TXN00439,2024-04-10,Healthcare,HealthPlus,235.67,Debit Card,New York,1007,False,2,False,True,1,0,True,2,11,1,0
+TXN00282,2024-04-15,Healthcare,Walgreens,238.45,Credit Card,Chicago,1007,False,2,False,True,1,0,True,0,21,1,0
+TXN00766,2024-04-15,Shopping,Amazon,212.29,Credit Card,San Francisco,1007,False,2,False,True,1,0,True,3,3,1,0
+TXN00181,2024-04-16,Utilities,Comcast,70.48,Debit Card,New York,1007,False,1,False,True,1,0,True,2,8,1,0
+TXN00875,2024-04-17,Travel,Delta,197.91,Credit Card,Seattle,1007,False,1,False,True,1,0,True,4,9,1,0
+TXN00983,2024-04-18,Utilities,Comcast,94.57,Credit Card,San Francisco,1007,False,1,False,True,1,0,True,3,8,1,0
+TXN00737,2024-04-19,Entertainment,Spotify,192.72,Credit Card,New York,1007,False,1,False,True,1,0,True,2,16,1,0
+TXN00756,2024-04-20,Gas,Shell,238.52,Credit Card,New York,1007,False,1,False,False,1,0,False,2,15,1,0
+TXN00573,2024-04-21,Healthcare,CVS,38.34,Debit Card,New York,1007,False,1,False,False,1,0,False,2,5,1,0
+TXN00475,2024-04-24,Gas,Shell,216.75,Debit Card,New York,1007,False,1,False,False,1,0,False,2,15,1,0
+TXN00066,2024-04-27,Healthcare,Walgreens,81.4,Debit Card,Dallas,1007,False,1,False,True,1,0,True,1,21,1,0
+TXN00909,2024-04-28,Entertainment,AMC Theatres,170.91,Credit Card,Seattle,1007,False,1,False,True,1,0,True,4,0,1,0
+TXN00112,2024-01-03,Entertainment,Netflix,213.34,Credit Card,Chicago,1008,False,1,False,True,1,0,True,0,14,1,0
+TXN00817,2024-01-05,Travel,Uber,97.28,Debit Card,San Francisco,1008,False,1,False,True,1,0,True,3,20,1,0
+TXN00561,2024-01-08,Healthcare,Walgreens,6.81,Debit Card,Dallas,1008,False,1,False,True,1,0,True,1,21,1,0
+TXN00208,2024-01-10,Gas,ExxonMobil,200.64,Debit Card,Chicago,1008,False,2,False,True,1,0,True,0,10,1,0
+TXN00280,2024-01-10,Gas,ExxonMobil,243.67,Credit Card,New York,1008,False,2,False,True,1,0,True,2,10,1,0
+TXN00227,2024-01-12,Healthcare,CVS,207.66,Credit Card,San Francisco,1008,False,3,False,True,1,0,True,3,5,1,0
+TXN00390,2024-01-12,Gas,ExxonMobil,19.03,Credit Card,Chicago,1008,False,3,False,True,1,0,True,0,10,-1,1
+TXN00696,2024-01-12,Gas,Chevron,13.1,Credit Card,San Francisco,1008,False,3,False,True,1,0,True,3,6,1,0
+TXN00613,2024-01-14,Gas,Shell,93.37,Credit Card,Chicago,1008,False,1,False,True,1,0,True,0,15,1,0
+TXN00693,2024-01-22,Restaurants,Chipotle,97.67,Credit Card,Seattle,1008,False,1,False,True,1,0,True,4,7,1,0
+TXN00196,2024-01-28,Groceries,Walmart,43.0,Credit Card,Dallas,1008,False,1,False,True,1,0,True,1,22,1,0
+TXN00796,2024-02-06,Restaurants,McDonalds,57.19,Debit Card,Chicago,1008,False,1,False,True,1,0,True,0,13,1,0
+TXN00046,2024-02-09,Gas,Shell,102.13,Credit Card,Dallas,1008,False,1,False,True,1,0,True,1,15,1,0
+TXN00061,2024-02-13,Healthcare,CVS,115.45,Credit Card,San Francisco,1008,False,3,False,True,1,0,True,3,5,1,0
+TXN00375,2024-02-13,Gas,ExxonMobil,123.55,Credit Card,Chicago,1008,False,3,False,True,1,0,True,0,10,1,0
+TXN00699,2024-02-13,Gas,Shell,67.25,Credit Card,San Francisco,1008,False,3,False,True,1,0,True,3,15,1,0
+TXN00772,2024-02-16,Entertainment,Netflix,170.12,Credit Card,Seattle,1008,False,1,False,True,1,0,True,4,14,1,0
+TXN00819,2024-02-17,Entertainment,Netflix,93.0,Debit Card,Seattle,1008,False,1,False,False,1,0,False,4,14,1,0
+TXN00329,2024-02-19,Groceries,Kroger,135.06,Debit Card,Seattle,1008,False,1,False,False,1,0,False,4,12,1,0
+TXN00441,2024-02-20,Healthcare,CVS,111.2,Credit Card,New York,1008,False,1,False,True,1,0,True,2,5,1,0
+TXN00427,2024-02-21,Healthcare,HealthPlus,137.38,Credit Card,Dallas,1008,False,1,False,True,1,0,True,1,11,1,0
+TXN00212,2024-02-24,Utilities,AT&T,152.23,Credit Card,Dallas,1008,False,1,False,False,1,0,False,1,1,1,0
+TXN00168,2024-02-26,Utilities,AT&T,178.78,Credit Card,Dallas,1008,False,1,False,False,1,0,False,1,1,1,0
+TXN00340,2024-02-27,Restaurants,Starbucks,121.33,Credit Card,Chicago,1008,False,1,False,True,1,0,True,0,17,1,0
+TXN00201,2024-02-29,Healthcare,HealthPlus,143.72,Debit Card,Dallas,1008,False,1,False,True,1,0,True,1,11,1,0
+TXN00954,2024-03-01,Gas,ExxonMobil,116.5,Credit Card,San Francisco,1008,False,1,False,True,1,0,True,3,10,1,0
+TXN00929,2024-03-08,Entertainment,Spotify,20.86,Debit Card,Dallas,1008,False,1,False,True,1,0,True,1,16,1,0
+TXN00213,2024-03-11,Gas,ExxonMobil,204.72,Credit Card,Seattle,1008,False,1,False,True,1,0,True,4,10,1,0
+TXN00598,2024-03-13,Restaurants,Chipotle,196.37,Credit Card,Chicago,1008,False,1,False,True,1,0,True,0,7,1,0
+TXN00413,2024-03-14,Shopping,Amazon,222.81,Debit Card,San Francisco,1008,False,2,False,True,1,0,True,3,3,1,0
+TXN00924,2024-03-14,Entertainment,Spotify,101.56,Credit Card,Dallas,1008,False,2,False,True,1,0,True,1,16,1,0
+TXN00418,2024-03-15,Gas,ExxonMobil,166.82,Credit Card,Dallas,1008,False,1,False,False,1,0,False,1,10,1,0
+TXN00402,2024-03-16,Utilities,Comcast,230.61,Debit Card,San Francisco,1008,False,3,False,True,1,0,True,3,8,1,0
+TXN00583,2024-03-16,Shopping,Amazon,47.77,Credit Card,New York,1008,False,3,False,True,1,0,True,2,3,1,0
+TXN00949,2024-03-16,Entertainment,Spotify,130.77,Credit Card,Dallas,1008,False,3,False,True,1,0,True,1,16,1,0
+TXN00021,2024-03-19,Travel,Uber,142.97,Credit Card,San Francisco,1008,False,1,False,True,1,0,True,3,20,1,0
+TXN00125,2024-03-20,Groceries,Whole Foods,247.55,Credit Card,Seattle,1008,False,1,False,True,1,0,True,4,23,1,0
+TXN00483,2024-03-21,Travel,Delta,175.3,Credit Card,Dallas,1008,False,1,False,True,1,0,True,1,9,1,0
+TXN00652,2024-03-23,Groceries,Kroger,180.91,Debit Card,Chicago,1008,False,1,False,True,1,0,True,0,12,1,0
+TXN00241,2024-03-27,Shopping,Amazon,188.96,Credit Card,San Francisco,1008,False,1,False,True,1,0,True,3,3,1,0
+TXN00701,2024-03-29,Rent,Apartments.com,1360.61,Credit Card,Chicago,1008,True,2,False,True,1,0,True,0,4,-1,1
+TXN00882,2024-03-29,Travel,Uber,212.6,Debit Card,New York,1008,False,2,False,True,1,0,True,2,20,1,0
+TXN00713,2024-04-03,Gas,Chevron,85.16,Credit Card,Seattle,1008,False,2,False,True,1,0,True,4,6,1,0
+TXN00745,2024-04-03,Utilities,TXU Energy,103.29,Debit Card,Seattle,1008,False,2,False,False,1,0,False,4,18,1,0
+TXN00254,2024-04-12,Restaurants,McDonalds,221.42,Debit Card,New York,1008,False,2,False,True,1,0,True,2,13,1,0
+TXN00935,2024-04-12,Shopping,Amazon,30.48,Debit Card,Chicago,1008,False,2,False,True,1,0,True,0,3,1,0
+TXN00615,2024-04-14,Travel,Uber,179.21,Credit Card,Dallas,1008,False,1,False,True,1,0,True,1,20,1,0
+TXN00440,2024-04-15,Rent,Zillow Rentals,1437.82,Credit Card,San Francisco,1008,True,1,False,True,1,0,True,3,24,1,0
+TXN00266,2024-04-19,Entertainment,AMC Theatres,76.32,Debit Card,Seattle,1008,False,1,False,True,1,0,True,4,0,1,0
+TXN00839,2024-04-27,Entertainment,AMC Theatres,221.42,Credit Card,Dallas,1008,False,1,False,True,1,0,True,1,0,1,0
+TXN00811,2024-01-01,Healthcare,CVS,217.73,Credit Card,Chicago,1009,False,1,False,True,1,0,True,0,5,1,0
+TXN00369,2024-01-02,Groceries,Walmart,45.67,Debit Card,San Francisco,1009,False,1,False,True,1,0,True,3,22,1,0
+TXN00044,2024-01-07,Rent,Apartments.com,1352.13,Credit Card,Seattle,1009,True,1,False,True,1,0,True,4,4,1,0
+TXN00091,2024-01-08,Healthcare,Walgreens,112.47,Debit Card,San Francisco,1009,False,1,False,True,1,0,True,3,21,1,0
+TXN00495,2024-01-10,Groceries,Kroger,169.51,Debit Card,Dallas,1009,False,1,False,True,1,0,True,1,12,1,0
+TXN00571,2024-01-12,Rent,Apartments.com,967.98,Credit Card,Seattle,1009,True,1,False,True,1,0,True,4,4,1,0
+TXN00896,2024-01-21,Rent,Apartments.com,924.59,Credit Card,Seattle,1009,True,1,False,False,1,0,True,4,4,1,0
+TXN00947,2024-01-24,Restaurants,McDonalds,19.9,Credit Card,New York,1009,False,1,False,True,1,0,True,2,13,1,0
+TXN00259,2024-01-29,Entertainment,AMC Theatres,199.43,Debit Card,Seattle,1009,False,1,False,True,1,0,True,4,0,1,0
+TXN00646,2024-01-30,Rent,Zillow Rentals,1222.66,Debit Card,San Francisco,1009,True,1,False,True,1,0,True,3,24,1,0
+TXN00478,2024-01-31,Utilities,AT&T,176.01,Credit Card,New York,1009,False,1,False,True,1,0,True,2,1,1,0
+TXN00503,2024-02-01,Gas,Shell,236.18,Debit Card,Dallas,1009,False,1,False,True,1,0,True,1,15,1,0
+TXN00436,2024-02-04,Entertainment,AMC Theatres,13.58,Credit Card,San Francisco,1009,False,2,False,True,1,0,True,3,0,1,0
+TXN00654,2024-02-04,Gas,Chevron,149.6,Credit Card,Seattle,1009,False,2,False,True,1,0,True,4,6,1,0
+TXN00445,2024-02-09,Groceries,Kroger,105.42,Credit Card,San Francisco,1009,False,1,False,True,1,0,True,3,12,1,0
+TXN00389,2024-02-12,Utilities,TXU Energy,91.15,Debit Card,New York,1009,False,3,False,True,1,0,True,2,18,1,0
+TXN00530,2024-02-12,Shopping,eBay,65.41,Credit Card,Seattle,1009,False,3,False,True,1,0,True,4,25,-1,1
+TXN00586,2024-02-12,Travel,Uber,25.43,Credit Card,Seattle,1009,False,3,False,False,1,0,False,4,20,-1,1
+TXN00225,2024-02-17,Groceries,Kroger,49.03,Credit Card,New York,1009,False,1,False,True,1,0,True,2,12,1,0
+TXN00018,2024-02-18,Utilities,TXU Energy,204.31,Debit Card,Chicago,1009,False,1,False,True,1,0,True,0,18,1,0
+TXN00594,2024-02-20,Entertainment,AMC Theatres,249.72,Credit Card,San Francisco,1009,False,2,False,True,1,0,True,3,0,1,0
+TXN00945,2024-02-20,Shopping,Target,127.7,Debit Card,Chicago,1009,False,2,False,True,1,0,True,0,19,1,0
+TXN00290,2024-02-21,Gas,ExxonMobil,183.47,Credit Card,San Francisco,1009,False,2,False,True,1,0,True,3,10,1,0
+TXN00824,2024-02-21,Groceries,Whole Foods,84.4,Debit Card,New York,1009,False,2,False,True,1,0,True,2,23,1,0
+TXN00831,2024-02-22,Restaurants,Starbucks,226.25,Debit Card,Chicago,1009,False,1,False,True,1,0,True,0,17,1,0
+TXN00327,2024-02-24,Utilities,AT&T,85.91,Debit Card,Chicago,1009,False,1,False,False,1,0,False,0,1,1,0
+TXN00529,2024-02-27,Groceries,Walmart,45.68,Credit Card,New York,1009,False,1,False,True,1,0,True,2,22,1,0
+TXN00767,2024-03-09,Utilities,AT&T,18.54,Credit Card,Dallas,1009,False,1,False,True,1,0,True,1,1,1,0
+TXN00775,2024-03-10,Healthcare,HealthPlus,165.08,Credit Card,Dallas,1009,False,1,False,False,1,0,False,1,11,1,0
+TXN00606,2024-03-12,Groceries,Whole Foods,121.95,Credit Card,Chicago,1009,False,2,False,True,1,0,True,0,23,1,0
+TXN00708,2024-03-12,Healthcare,CVS,195.45,Credit Card,Seattle,1009,False,2,False,True,1,0,True,4,5,1,0
+TXN00740,2024-03-13,Shopping,Amazon,7.83,Credit Card,Dallas,1009,False,1,False,True,1,0,True,1,3,1,0
+TXN00277,2024-03-16,Shopping,Amazon,116.16,Debit Card,San Francisco,1009,False,1,False,True,1,0,True,3,3,1,0
+TXN00139,2024-03-20,Entertainment,AMC Theatres,11.34,Debit Card,San Francisco,1009,False,1,False,False,1,0,False,3,0,1,0
+TXN00180,2024-03-21,Travel,Delta,191.05,Debit Card,Seattle,1009,False,1,False,True,1,0,True,4,9,1,0
+TXN00734,2024-03-25,Entertainment,Spotify,198.67,Debit Card,Dallas,1009,False,1,False,True,1,0,True,1,16,1,0
+TXN00463,2024-03-27,Groceries,Whole Foods,131.28,Debit Card,Dallas,1009,False,2,False,False,1,0,False,1,23,1,0
+TXN00501,2024-03-27,Utilities,AT&T,73.01,Debit Card,New York,1009,False,2,False,True,1,0,True,2,1,1,0
+TXN00388,2024-03-29,Healthcare,Walgreens,93.68,Credit Card,San Francisco,1009,False,1,False,True,1,0,True,3,21,1,0
+TXN00623,2024-03-30,Healthcare,CVS,203.68,Debit Card,Dallas,1009,False,1,False,True,1,0,True,1,5,1,0
+TXN00004,2024-03-31,Gas,Shell,97.26,Credit Card,New York,1009,False,3,False,True,1,0,True,2,15,1,0
+TXN00065,2024-03-31,Shopping,Target,17.17,Debit Card,Seattle,1009,False,3,False,True,1,0,True,4,19,-1,1
+TXN00447,2024-03-31,Travel,Uber,97.86,Debit Card,New York,1009,False,3,False,True,1,0,True,2,20,1,0
+TXN00784,2024-04-02,Utilities,AT&T,198.3,Debit Card,Dallas,1009,False,1,False,True,1,0,True,1,1,1,0
+TXN00394,2024-04-16,Utilities,Comcast,95.58,Credit Card,Chicago,1009,False,2,False,True,1,0,True,0,8,1,0
+TXN00556,2024-04-16,Groceries,Whole Foods,164.33,Debit Card,San Francisco,1009,False,2,False,True,1,0,True,3,23,1,0
+TXN00722,2024-04-19,Shopping,Target,108.73,Credit Card,New York,1009,False,1,False,True,1,0,True,2,19,1,0
+TXN00637,2024-04-20,Gas,ExxonMobil,24.73,Debit Card,Chicago,1009,False,1,False,True,1,0,True,0,10,1,0
+TXN00200,2024-04-21,Gas,ExxonMobil,52.88,Credit Card,Seattle,1009,False,1,False,True,1,0,True,4,10,1,0
+TXN00417,2024-04-25,Shopping,Target,98.88,Debit Card,San Francisco,1009,False,1,False,True,1,0,True,3,19,1,0
+TXN00381,2024-01-06,Healthcare,CVS,167.89,Credit Card,Chicago,1010,False,1,False,True,1,0,True,0,5,1,0
+TXN00872,2024-01-09,Entertainment,Spotify,195.77,Debit Card,New York,1010,False,1,False,True,1,0,True,2,16,1,0
+TXN00360,2024-01-11,Groceries,Walmart,40.51,Debit Card,Chicago,1010,False,1,False,True,1,0,True,0,22,1,0
+TXN00721,2024-01-16,Restaurants,McDonalds,142.42,Credit Card,New York,1010,False,2,False,True,1,0,True,2,13,1,0
+TXN00798,2024-01-16,Restaurants,Starbucks,122.68,Credit Card,New York,1010,False,2,False,False,1,0,False,2,17,1,0
+TXN00148,2024-01-20,Entertainment,Spotify,108.63,Credit Card,Dallas,1010,False,1,False,True,1,0,True,1,16,1,0
+TXN00688,2024-01-21,Gas,ExxonMobil,153.13,Credit Card,San Francisco,1010,False,1,False,True,1,0,True,3,10,1,0
+TXN00868,2024-01-24,Healthcare,HealthPlus,62.58,Credit Card,Chicago,1010,False,1,False,True,1,0,True,0,11,1,0
+TXN00357,2024-01-27,Travel,Uber,62.06,Credit Card,Dallas,1010,False,1,False,True,1,0,True,1,20,1,0
+TXN00449,2024-01-31,Healthcare,Walgreens,217.89,Credit Card,Chicago,1010,False,1,False,True,1,0,True,0,21,1,0
+TXN00175,2024-02-01,Shopping,Target,188.2,Debit Card,Dallas,1010,False,1,False,True,1,0,True,1,19,1,0
+TXN00946,2024-02-07,Entertainment,Spotify,90.06,Credit Card,Chicago,1010,False,1,False,True,1,0,True,0,16,1,0
+TXN00634,2024-02-10,Travel,Uber,34.85,Credit Card,Chicago,1010,False,2,False,False,1,0,False,0,20,1,0
+TXN00974,2024-02-10,Entertainment,Spotify,155.18,Credit Card,Seattle,1010,False,2,False,True,1,0,True,4,16,1,0
+TXN00834,2024-02-13,Travel,Airbnb,105.54,Credit Card,Dallas,1010,False,1,False,True,1,0,True,1,2,1,0
+TXN00364,2024-02-17,Groceries,Walmart,211.17,Debit Card,Chicago,1010,False,1,False,True,1,0,True,0,22,1,0
+TXN00996,2024-02-20,Gas,Chevron,209.66,Credit Card,San Francisco,1010,False,1,False,True,1,0,True,3,6,1,0
+TXN00038,2024-02-22,Travel,Uber,25.9,Credit Card,Chicago,1010,False,1,False,True,1,0,True,0,20,1,0
+TXN00020,2024-02-28,Restaurants,Chipotle,58.95,Credit Card,New York,1010,False,1,False,True,1,0,True,2,7,1,0
+TXN00341,2024-03-01,Travel,Delta,44.56,Credit Card,New York,1010,False,1,False,False,1,0,False,2,9,1,0
+TXN00335,2024-03-03,Travel,Airbnb,170.07,Credit Card,San Francisco,1010,False,1,False,True,1,0,True,3,2,1,0
+TXN00543,2024-03-04,Restaurants,McDonalds,245.25,Credit Card,San Francisco,1010,False,1,False,False,1,0,False,3,13,1,0
+TXN00664,2024-03-06,Rent,Apartments.com,910.7,Debit Card,New York,1010,True,1,False,True,1,0,True,2,4,1,0
+TXN00134,2024-03-14,Utilities,AT&T,54.07,Credit Card,Chicago,1010,False,1,False,True,1,0,True,0,1,1,0
+TXN00435,2024-03-21,Entertainment,Spotify,179.73,Credit Card,Seattle,1010,False,1,False,True,1,0,True,4,16,1,0
+TXN00513,2024-03-28,Utilities,AT&T,39.31,Credit Card,Chicago,1010,False,1,False,True,1,0,True,0,1,1,0
+TXN00395,2024-04-01,Utilities,TXU Energy,167.41,Credit Card,Dallas,1010,False,1,False,True,1,0,True,1,18,1,0
+TXN00487,2024-04-02,Entertainment,Netflix,146.59,Debit Card,Seattle,1010,False,1,False,True,1,0,True,4,14,1,0
+TXN00683,2024-04-03,Restaurants,Starbucks,22.58,Debit Card,Seattle,1010,False,1,False,False,1,0,False,4,17,1,0
+TXN00030,2024-04-04,Shopping,Amazon,203.14,Debit Card,San Francisco,1010,False,1,False,True,1,0,True,3,3,1,0
+TXN00498,2024-04-06,Rent,Apartments.com,1435.55,Debit Card,Dallas,1010,True,1,False,True,-1,1,True,1,4,-1,1
+TXN00806,2024-04-08,Travel,Delta,19.99,Credit Card,Seattle,1010,False,1,False,True,1,0,True,4,9,1,0
+TXN00326,2024-04-12,Restaurants,McDonalds,65.79,Debit Card,Seattle,1010,False,2,False,False,1,0,False,4,13,1,0
+TXN00768,2024-04-12,Rent,Apartments.com,1337.93,Credit Card,Dallas,1010,True,2,False,True,1,0,True,1,4,-1,1
+TXN00621,2024-04-15,Travel,Airbnb,81.8,Debit Card,New York,1010,False,1,False,True,1,0,True,2,2,1,0
+TXN00151,2024-04-18,Rent,Apartments.com,1133.62,Debit Card,Chicago,1010,True,1,False,True,1,0,True,0,4,-1,1
+TXN00157,2024-04-23,Shopping,eBay,86.37,Credit Card,New York,1010,False,1,False,True,1,0,True,2,25,1,0
+TXN00423,2024-04-27,Entertainment,Netflix,57.69,Debit Card,New York,1010,False,1,False,False,1,0,False,2,14,1,0
+TXN00941,2024-04-28,Utilities,AT&T,176.95,Credit Card,Seattle,1010,False,1,False,True,1,0,True,4,1,1,0
+TXN00921,2024-04-29,Healthcare,CVS,130.82,Credit Card,San Francisco,1010,False,2,False,True,1,0,True,3,5,1,0
+TXN00963,2024-04-29,Healthcare,Walgreens,35.73,Credit Card,Dallas,1010,False,2,False,True,1,0,True,1,21,1,0
+TXN00371,2024-01-02,Healthcare,HealthPlus,30.5,Credit Card,San Francisco,1011,False,2,False,True,1,0,True,3,11,1,0
+TXN00568,2024-01-02,Rent,Zillow Rentals,1253.15,Debit Card,Seattle,1011,True,2,False,True,1,0,True,4,24,-1,1
+TXN00073,2024-01-04,Groceries,Walmart,71.8,Credit Card,Dallas,1011,False,1,False,True,1,0,True,1,22,1,0
+TXN00220,2024-01-05,Entertainment,AMC Theatres,200.36,Credit Card,New York,1011,False,1,False,True,1,0,True,2,0,1,0
+TXN00578,2024-01-08,Healthcare,Walgreens,87.15,Credit Card,Chicago,1011,False,1,False,True,1,0,True,0,21,1,0
+TXN00760,2024-01-09,Shopping,Target,156.58,Debit Card,New York,1011,False,2,False,True,1,0,True,2,19,1,0
+TXN00761,2024-01-09,Rent,Zillow Rentals,1495.4,Credit Card,Seattle,1011,True,2,False,True,-1,1,True,4,24,-1,1
+TXN00481,2024-01-10,Entertainment,AMC Theatres,180.24,Debit Card,Seattle,1011,False,2,False,False,1,0,False,4,0,1,0
+TXN00852,2024-01-10,Travel,Delta,142.84,Credit Card,Seattle,1011,False,2,False,False,1,0,False,4,9,1,0
+TXN00063,2024-01-13,Travel,Delta,158.39,Credit Card,Chicago,1011,False,3,False,True,1,0,True,0,9,1,0
+TXN00338,2024-01-13,Groceries,Kroger,206.88,Credit Card,New York,1011,False,3,False,True,1,0,True,2,12,1,0
+TXN00758,2024-01-13,Healthcare,HealthPlus,147.09,Credit Card,San Francisco,1011,False,3,False,True,1,0,True,3,11,1,0
+TXN00636,2024-01-14,Utilities,Comcast,33.04,Debit Card,San Francisco,1011,False,1,False,False,1,0,False,3,8,1,0
+TXN00864,2024-01-16,Shopping,Amazon,184.36,Debit Card,Seattle,1011,False,1,False,True,1,0,True,4,3,1,0
+TXN00837,2024-01-19,Shopping,Target,229.39,Credit Card,San Francisco,1011,False,1,False,True,1,0,True,3,19,1,0
+TXN00902,2024-01-21,Utilities,AT&T,215.78,Debit Card,Chicago,1011,False,1,False,True,1,0,True,0,1,1,0
+TXN00927,2024-01-23,Groceries,Walmart,204.03,Credit Card,San Francisco,1011,False,1,False,True,1,0,True,3,22,1,0
+TXN00856,2024-01-29,Gas,Chevron,98.25,Credit Card,Seattle,1011,False,1,False,True,1,0,True,4,6,1,0
+TXN00071,2024-01-30,Healthcare,HealthPlus,32.69,Credit Card,Dallas,1011,False,3,False,True,1,0,True,1,11,1,0
+TXN00876,2024-01-30,Rent,Zillow Rentals,1191.34,Credit Card,San Francisco,1011,True,3,False,True,-1,1,True,3,24,-1,1
+TXN00908,2024-01-30,Travel,Uber,99.98,Credit Card,San Francisco,1011,False,3,False,False,1,0,False,3,20,1,0
+TXN00011,2024-02-05,Utilities,AT&T,72.89,Debit Card,Chicago,1011,False,1,False,True,1,0,True,0,1,1,0
+TXN00709,2024-02-06,Utilities,TXU Energy,122.85,Credit Card,Chicago,1011,False,1,False,False,1,0,False,0,18,1,0
+TXN00671,2024-02-07,Rent,Apartments.com,844.83,Credit Card,New York,1011,True,1,False,True,1,0,True,2,4,1,0
+TXN00971,2024-02-12,Travel,Delta,151.91,Credit Card,Dallas,1011,False,1,False,True,1,0,True,1,9,1,0
+TXN00720,2024-02-13,Entertainment,AMC Theatres,56.49,Debit Card,New York,1011,False,1,False,True,1,0,True,2,0,1,0
+TXN00284,2024-02-16,Entertainment,AMC Theatres,108.72,Credit Card,San Francisco,1011,False,1,False,True,1,0,True,3,0,1,0
+TXN00310,2024-02-17,Travel,Delta,77.43,Credit Card,San Francisco,1011,False,1,False,False,1,0,False,3,9,1,0
+TXN00164,2024-02-19,Groceries,Walmart,244.08,Credit Card,Chicago,1011,False,1,False,True,1,0,True,0,22,1,0
+TXN00087,2024-02-24,Rent,Apartments.com,1250.76,Credit Card,Dallas,1011,True,1,False,True,1,0,True,1,4,1,0
+TXN00098,2024-02-29,Healthcare,HealthPlus,138.29,Credit Card,Dallas,1011,False,1,False,False,1,0,False,1,11,1,0
+TXN00331,2024-03-01,Shopping,eBay,72.75,Debit Card,Chicago,1011,False,1,False,True,1,0,True,0,25,1,0
+TXN00022,2024-03-08,Rent,Zillow Rentals,1292.6,Credit Card,Chicago,1011,True,1,False,False,1,0,True,0,24,-1,1
+TXN00746,2024-03-12,Gas,Shell,17.71,Debit Card,Chicago,1011,False,1,False,False,1,0,False,0,15,1,0
+TXN00314,2024-03-14,Restaurants,Starbucks,66.74,Debit Card,Dallas,1011,False,1,False,True,1,0,True,1,17,1,0
+TXN00649,2024-03-17,Utilities,AT&T,207.44,Credit Card,Dallas,1011,False,2,False,False,1,0,False,1,1,1,0
+TXN00818,2024-03-17,Groceries,Kroger,162.35,Credit Card,Dallas,1011,False,2,False,False,1,0,False,1,12,1,0
+TXN00348,2024-03-21,Entertainment,Netflix,85.46,Debit Card,Seattle,1011,False,1,False,True,1,0,True,4,14,1,0
+TXN00301,2024-03-27,Groceries,Kroger,24.96,Debit Card,San Francisco,1011,False,1,False,True,1,0,True,3,12,1,0
+TXN00260,2024-03-30,Shopping,Amazon,22.19,Credit Card,Dallas,1011,False,1,False,True,1,0,True,1,3,1,0
+TXN00782,2024-04-17,Travel,Delta,183.71,Debit Card,Seattle,1011,False,1,False,True,1,0,True,4,9,1,0
+TXN00502,2024-04-18,Travel,Uber,163.94,Debit Card,San Francisco,1011,False,1,False,True,1,0,True,3,20,1,0
+TXN00411,2024-04-21,Shopping,Amazon,80.18,Credit Card,Dallas,1011,False,2,False,True,1,0,True,1,3,1,0
+TXN00841,2024-04-21,Gas,Shell,133.29,Credit Card,Dallas,1011,False,2,False,False,1,0,False,1,15,1,0
+TXN00349,2024-04-27,Gas,Shell,214.71,Debit Card,Chicago,1011,False,1,False,True,1,0,True,0,15,1,0
+TXN00176,2024-04-30,Restaurants,Chipotle,79.85,Debit Card,San Francisco,1011,False,1,False,True,1,0,True,3,7,1,0
+TXN00350,2024-01-02,Travel,Uber,179.07,Debit Card,Dallas,1012,False,1,False,True,1,0,True,1,20,1,0
+TXN00410,2024-01-07,Healthcare,CVS,175.17,Credit Card,San Francisco,1012,False,1,False,True,1,0,True,3,5,1,0
+TXN00644,2024-01-09,Rent,Zillow Rentals,1249.2,Credit Card,San Francisco,1012,True,1,False,False,1,0,True,3,24,1,0
+TXN00705,2024-01-10,Rent,Apartments.com,1165.69,Credit Card,Seattle,1012,True,1,False,True,1,0,True,4,4,1,0
+TXN00374,2024-01-21,Rent,Zillow Rentals,1172.25,Debit Card,Seattle,1012,True,1,False,False,1,0,True,4,24,1,0
+TXN00169,2024-01-24,Groceries,Kroger,95.56,Credit Card,San Francisco,1012,False,1,False,True,1,0,True,3,12,1,0
+TXN00345,2024-01-25,Healthcare,CVS,135.85,Credit Card,New York,1012,False,1,False,True,1,0,True,2,5,1,0
+TXN00006,2024-01-26,Travel,Delta,38.17,Debit Card,New York,1012,False,1,False,False,1,0,False,2,9,1,0
+TXN00075,2024-01-27,Gas,ExxonMobil,190.51,Credit Card,San Francisco,1012,False,1,False,True,1,0,True,3,10,1,0
+TXN00526,2024-01-31,Travel,Airbnb,98.95,Credit Card,Seattle,1012,False,1,False,True,1,0,True,4,2,1,0
+TXN00523,2024-02-03,Entertainment,AMC Theatres,237.31,Credit Card,Seattle,1012,False,1,False,False,1,0,False,4,0,1,0
+TXN00891,2024-02-04,Shopping,Target,228.69,Credit Card,San Francisco,1012,False,1,False,True,1,0,True,3,19,1,0
+TXN00146,2024-02-06,Groceries,Walmart,79.74,Debit Card,San Francisco,1012,False,2,False,False,1,0,False,3,22,1,0
+TXN00401,2024-02-06,Entertainment,Netflix,59.62,Debit Card,Dallas,1012,False,2,False,True,1,0,True,1,14,1,0
+TXN00534,2024-02-09,Groceries,Walmart,34.39,Debit Card,Seattle,1012,False,1,False,True,1,0,True,4,22,1,0
+TXN00150,2024-02-10,Rent,Zillow Rentals,1147.65,Debit Card,New York,1012,True,1,False,True,1,0,True,2,24,1,0
+TXN00153,2024-02-16,Shopping,eBay,101.36,Debit Card,Seattle,1012,False,1,False,True,1,0,True,4,25,1,0
+TXN00774,2024-02-17,Groceries,Whole Foods,77.46,Debit Card,Chicago,1012,False,1,False,True,1,0,True,0,23,1,0
+TXN00614,2024-02-19,Groceries,Walmart,175.9,Debit Card,New York,1012,False,1,False,True,1,0,True,2,22,1,0
+TXN00376,2024-02-21,Groceries,Walmart,59.79,Credit Card,Seattle,1012,False,1,False,True,1,0,True,4,22,1,0
+TXN00056,2024-02-24,Utilities,AT&T,112.66,Debit Card,Seattle,1012,False,1,False,False,1,0,False,4,1,1,0
+TXN00325,2024-02-25,Shopping,Target,163.22,Debit Card,New York,1012,False,2,False,True,1,0,True,2,19,1,0
+TXN00770,2024-02-25,Shopping,eBay,70.48,Credit Card,Seattle,1012,False,2,False,True,1,0,True,4,25,1,0
+TXN00802,2024-02-26,Shopping,Target,21.42,Debit Card,New York,1012,False,1,False,True,1,0,True,2,19,1,0
+TXN00572,2024-02-27,Healthcare,HealthPlus,170.93,Debit Card,Chicago,1012,False,1,False,True,1,0,True,0,11,1,0
+TXN00226,2024-03-07,Shopping,Amazon,122.64,Credit Card,San Francisco,1012,False,2,False,True,1,0,True,3,3,1,0
+TXN00631,2024-03-07,Entertainment,Spotify,72.37,Credit Card,New York,1012,False,2,False,True,1,0,True,2,16,1,0
+TXN00028,2024-03-10,Gas,Chevron,161.34,Credit Card,New York,1012,False,2,False,False,1,0,False,2,6,1,0
+TXN00564,2024-03-10,Groceries,Whole Foods,157.48,Debit Card,Chicago,1012,False,2,False,True,1,0,True,0,23,1,0
+TXN00231,2024-03-12,Rent,Apartments.com,1180.26,Debit Card,Seattle,1012,True,1,False,True,1,0,True,4,4,1,0
+TXN00228,2024-03-16,Rent,Zillow Rentals,939.55,Debit Card,San Francisco,1012,True,1,False,True,1,0,True,3,24,1,0
+TXN00479,2024-03-18,Gas,Shell,46.07,Debit Card,Chicago,1012,False,1,False,True,1,0,True,0,15,1,0
+TXN00109,2024-03-19,Healthcare,Walgreens,95.99,Credit Card,Dallas,1012,False,1,False,True,1,0,True,1,21,1,0
+TXN00476,2024-03-20,Entertainment,Netflix,100.96,Debit Card,New York,1012,False,1,False,True,1,0,True,2,14,1,0
+TXN00160,2024-03-21,Groceries,Whole Foods,207.14,Credit Card,Dallas,1012,False,1,False,True,1,0,True,1,23,1,0
+TXN00429,2024-03-26,Restaurants,McDonalds,9.62,Debit Card,Dallas,1012,False,1,False,False,1,0,False,1,13,1,0
+TXN00933,2024-04-05,Rent,Zillow Rentals,1256.06,Credit Card,New York,1012,True,1,False,True,1,0,True,2,24,1,0
+TXN00355,2024-04-14,Rent,Zillow Rentals,964.54,Debit Card,Dallas,1012,True,3,False,True,-1,1,True,1,24,-1,1
+TXN00467,2024-04-14,Rent,Apartments.com,1122.3,Debit Card,Seattle,1012,True,3,False,True,-1,1,True,4,4,-1,1
+TXN00915,2024-04-14,Restaurants,Starbucks,195.05,Credit Card,Seattle,1012,False,3,False,False,1,0,False,4,17,-1,1
+TXN00036,2024-04-17,Restaurants,McDonalds,10.83,Credit Card,New York,1012,False,1,False,True,1,0,True,2,13,1,0
+TXN00690,2024-04-21,Groceries,Walmart,211.02,Credit Card,San Francisco,1012,False,1,False,True,1,0,True,3,22,1,0
+TXN00509,2024-04-23,Rent,Zillow Rentals,1339.36,Credit Card,San Francisco,1012,True,1,False,False,1,0,True,3,24,1,0
+TXN00592,2024-04-25,Utilities,AT&T,107.72,Debit Card,Dallas,1012,False,1,False,True,1,0,True,1,1,1,0
+TXN00895,2024-04-27,Restaurants,Chipotle,141.64,Credit Card,New York,1012,False,1,False,True,1,0,True,2,7,1,0
+TXN00951,2024-01-04,Groceries,Whole Foods,207.3,Debit Card,Seattle,1013,False,1,False,True,1,0,True,4,23,1,0
+TXN00416,2024-01-06,Entertainment,Spotify,159.29,Credit Card,New York,1013,False,1,False,True,1,0,True,2,16,1,0
+TXN00629,2024-01-07,Healthcare,CVS,177.0,Credit Card,New York,1013,False,1,False,False,1,0,False,2,5,1,0
+TXN00990,2024-01-08,Rent,Zillow Rentals,1257.53,Debit Card,Chicago,1013,True,1,False,True,1,0,True,0,24,-1,1
+TXN00893,2024-01-13,Shopping,Target,9.43,Debit Card,San Francisco,1013,False,1,False,True,1,0,True,3,19,1,0
+TXN00539,2024-01-14,Utilities,Comcast,242.51,Credit Card,Dallas,1013,False,1,False,True,1,0,True,1,8,1,0
+TXN00124,2024-01-24,Restaurants,Starbucks,103.85,Credit Card,San Francisco,1013,False,1,False,True,1,0,True,3,17,1,0
+TXN00469,2024-01-26,Utilities,Comcast,234.53,Credit Card,Dallas,1013,False,1,False,True,1,0,True,1,8,1,0
+TXN00590,2024-01-28,Shopping,Target,218.46,Debit Card,New York,1013,False,1,False,True,1,0,True,2,19,1,0
+TXN00159,2024-02-02,Groceries,Whole Foods,57.34,Credit Card,San Francisco,1013,False,1,False,True,1,0,True,3,23,1,0
+TXN00610,2024-02-04,Utilities,TXU Energy,101.94,Debit Card,New York,1013,False,1,False,True,1,0,True,2,18,1,0
+TXN00305,2024-02-05,Entertainment,Spotify,183.13,Credit Card,New York,1013,False,1,False,False,1,0,False,2,16,1,0
+TXN00233,2024-02-16,Healthcare,HealthPlus,49.75,Credit Card,Chicago,1013,False,1,False,True,1,0,True,0,11,1,0
+TXN00133,2024-02-19,Utilities,AT&T,114.05,Debit Card,Dallas,1013,False,1,False,True,1,0,True,1,1,1,0
+TXN00060,2024-02-20,Shopping,Amazon,72.55,Debit Card,Seattle,1013,False,2,False,True,1,0,True,4,3,1,0
+TXN00403,2024-02-20,Entertainment,Netflix,211.62,Credit Card,San Francisco,1013,False,2,False,True,1,0,True,3,14,1,0
+TXN00370,2024-02-26,Restaurants,McDonalds,131.2,Credit Card,New York,1013,False,1,False,True,1,0,True,2,13,1,0
+TXN00461,2024-02-28,Travel,Delta,141.22,Credit Card,San Francisco,1013,False,1,False,True,1,0,True,3,9,1,0
+TXN00448,2024-03-01,Groceries,Walmart,19.63,Credit Card,San Francisco,1013,False,1,False,False,1,0,False,3,22,1,0
+TXN00253,2024-03-03,Utilities,TXU Energy,86.99,Debit Card,San Francisco,1013,False,2,False,False,1,0,False,3,18,1,0
+TXN00620,2024-03-03,Shopping,Target,112.02,Credit Card,Chicago,1013,False,2,False,True,1,0,True,0,19,1,0
+TXN00041,2024-03-05,Utilities,TXU Energy,225.87,Credit Card,Chicago,1013,False,1,False,False,1,0,False,0,18,1,0
+TXN00771,2024-03-06,Entertainment,Netflix,23.67,Debit Card,Dallas,1013,False,2,False,True,1,0,True,1,14,1,0
+TXN00810,2024-03-06,Utilities,TXU Energy,114.97,Debit Card,San Francisco,1013,False,2,False,True,1,0,True,3,18,1,0
+TXN00464,2024-03-14,Utilities,Comcast,195.75,Credit Card,Chicago,1013,False,1,False,True,1,0,True,0,8,1,0
+TXN00956,2024-03-15,Shopping,Amazon,129.17,Debit Card,Chicago,1013,False,1,False,False,1,0,False,0,3,1,0
+TXN00472,2024-03-17,Groceries,Whole Foods,249.34,Debit Card,Seattle,1013,False,2,False,True,1,0,True,4,23,1,0
+TXN00642,2024-03-17,Entertainment,AMC Theatres,39.39,Credit Card,San Francisco,1013,False,2,False,True,1,0,True,3,0,1,0
+TXN00332,2024-03-18,Gas,Chevron,87.45,Debit Card,Seattle,1013,False,1,False,True,1,0,True,4,6,1,0
+TXN00805,2024-03-21,Healthcare,Walgreens,121.31,Debit Card,San Francisco,1013,False,2,False,True,1,0,True,3,21,1,0
+TXN00838,2024-03-21,Entertainment,Spotify,170.61,Debit Card,Seattle,1013,False,2,False,True,1,0,True,4,16,1,0
+TXN00147,2024-03-26,Rent,Apartments.com,1255.21,Credit Card,Dallas,1013,True,1,False,True,1,0,True,1,4,1,0
+TXN00979,2024-03-31,Shopping,Target,17.3,Credit Card,Chicago,1013,False,1,False,True,1,0,True,0,19,1,0
+TXN00224,2024-04-03,Healthcare,Walgreens,177.36,Debit Card,San Francisco,1013,False,1,False,True,1,0,True,3,21,1,0
+TXN00458,2024-04-09,Restaurants,Starbucks,91.1,Debit Card,Dallas,1013,False,1,False,True,1,0,True,1,17,1,0
+TXN00296,2024-04-12,Rent,Zillow Rentals,1476.72,Debit Card,Dallas,1013,True,1,False,False,-1,1,True,1,24,-1,1
+TXN00900,2024-04-14,Utilities,TXU Energy,120.9,Debit Card,Seattle,1013,False,1,False,True,1,0,True,4,18,1,0
+TXN00544,2024-04-15,Shopping,Amazon,116.83,Debit Card,Chicago,1013,False,1,False,True,1,0,True,0,3,1,0
+TXN00059,2024-04-17,Rent,Zillow Rentals,1492.74,Credit Card,San Francisco,1013,True,2,False,True,-1,1,True,3,24,-1,1
+TXN00934,2024-04-17,Healthcare,HealthPlus,154.63,Debit Card,San Francisco,1013,False,2,False,False,1,0,False,3,11,1,0
+TXN00546,2024-04-19,Utilities,Comcast,154.19,Credit Card,San Francisco,1013,False,1,False,False,1,0,False,3,8,1,0
+TXN00477,2024-04-22,Utilities,AT&T,31.56,Credit Card,Seattle,1013,False,1,False,True,1,0,True,4,1,1,0
+TXN00407,2024-04-23,Gas,ExxonMobil,58.58,Credit Card,New York,1013,False,1,False,True,1,0,True,2,10,1,0
+TXN00995,2024-04-24,Entertainment,Spotify,168.6,Credit Card,Chicago,1013,False,1,False,True,1,0,True,0,16,1,0
+TXN00328,2024-04-28,Shopping,eBay,240.26,Debit Card,Chicago,1013,False,1,False,False,1,0,False,0,25,1,0
+TXN00695,2024-04-29,Restaurants,Chipotle,213.61,Debit Card,Chicago,1013,False,1,False,False,1,0,False,0,7,1,0
+TXN00431,2024-01-01,Travel,Uber,82.17,Credit Card,Chicago,1014,False,1,False,True,1,0,True,0,20,1,0
+TXN00972,2024-01-07,Entertainment,AMC Theatres,50.97,Credit Card,Dallas,1014,False,1,False,True,1,0,True,1,0,1,0
+TXN00156,2024-01-10,Groceries,Whole Foods,156.4,Debit Card,San Francisco,1014,False,1,False,True,1,0,True,3,23,1,0
+TXN00442,2024-01-11,Healthcare,HealthPlus,108.41,Debit Card,New York,1014,False,1,False,True,1,0,True,2,11,1,0
+TXN00919,2024-01-18,Restaurants,Chipotle,177.92,Credit Card,San Francisco,1014,False,1,False,True,1,0,True,3,7,1,0
+TXN00144,2024-01-19,Travel,Delta,158.0,Debit Card,Chicago,1014,False,1,False,True,1,0,True,0,9,1,0
+TXN00950,2024-01-22,Healthcare,Walgreens,172.99,Credit Card,San Francisco,1014,False,1,False,True,1,0,True,3,21,1,0
+TXN00289,2024-01-23,Healthcare,CVS,235.92,Credit Card,Seattle,1014,False,1,False,True,1,0,True,4,5,1,0
+TXN00243,2024-01-27,Entertainment,AMC Theatres,35.81,Debit Card,New York,1014,False,1,False,True,1,0,True,2,0,1,0
+TXN00300,2024-01-29,Rent,Zillow Rentals,1309.05,Debit Card,San Francisco,1014,True,1,False,True,1,0,True,3,24,1,0
+TXN00640,2024-02-02,Entertainment,Netflix,215.58,Debit Card,San Francisco,1014,False,1,False,False,1,0,False,3,14,1,0
+TXN00017,2024-02-03,Gas,Chevron,36.03,Credit Card,Chicago,1014,False,1,False,True,1,0,True,0,6,1,0
+TXN00665,2024-02-05,Groceries,Walmart,144.03,Debit Card,Seattle,1014,False,1,False,True,1,0,True,4,22,1,0
+TXN00903,2024-02-07,Groceries,Whole Foods,138.22,Debit Card,New York,1014,False,2,False,True,1,0,True,2,23,1,0
+TXN00953,2024-02-07,Utilities,TXU Energy,182.26,Debit Card,San Francisco,1014,False,2,False,True,1,0,True,3,18,1,0
+TXN00114,2024-02-08,Restaurants,Chipotle,144.57,Debit Card,Chicago,1014,False,1,False,True,1,0,True,0,7,1,0
+TXN00236,2024-02-11,Shopping,Target,248.78,Debit Card,Dallas,1014,False,1,False,True,1,0,True,1,19,1,0
+TXN00187,2024-02-13,Rent,Apartments.com,1406.79,Credit Card,Seattle,1014,True,2,False,True,-1,1,True,4,4,-1,1
+TXN00778,2024-02-13,Shopping,eBay,7.67,Debit Card,Chicago,1014,False,2,False,True,1,0,True,0,25,1,0
+TXN00190,2024-02-14,Utilities,AT&T,70.45,Credit Card,San Francisco,1014,False,1,False,True,1,0,True,3,1,1,0
+TXN00120,2024-02-16,Healthcare,HealthPlus,218.29,Credit Card,Seattle,1014,False,2,False,True,1,0,True,4,11,1,0
+TXN00249,2024-02-16,Healthcare,HealthPlus,207.99,Credit Card,San Francisco,1014,False,2,False,True,1,0,True,3,11,1,0
+TXN00292,2024-02-18,Travel,Delta,105.89,Debit Card,New York,1014,False,1,False,True,1,0,True,2,9,1,0
+TXN00836,2024-02-19,Groceries,Whole Foods,145.73,Debit Card,Dallas,1014,False,1,False,True,1,0,True,1,23,1,0
+TXN00043,2024-02-22,Gas,Chevron,213.35,Debit Card,Chicago,1014,False,2,False,True,1,0,True,0,6,1,0
+TXN00520,2024-02-22,Restaurants,McDonalds,167.32,Debit Card,Chicago,1014,False,2,False,False,1,0,False,0,13,1,0
+TXN00315,2024-02-24,Restaurants,Chipotle,101.76,Credit Card,Chicago,1014,False,1,False,False,1,0,False,0,7,1,0
+TXN00899,2024-02-26,Shopping,Amazon,42.53,Debit Card,Seattle,1014,False,1,False,True,1,0,True,4,3,1,0
+TXN00269,2024-02-28,Healthcare,CVS,56.55,Credit Card,Seattle,1014,False,1,False,False,1,0,False,4,5,1,0
+TXN00267,2024-03-05,Entertainment,Spotify,12.91,Credit Card,San Francisco,1014,False,1,False,True,1,0,True,3,16,1,0
+TXN00023,2024-03-07,Shopping,Target,150.75,Credit Card,Chicago,1014,False,1,False,True,1,0,True,0,19,1,0
+TXN00078,2024-03-14,Healthcare,HealthPlus,112.88,Debit Card,San Francisco,1014,False,3,False,True,1,0,True,3,11,1,0
+TXN00167,2024-03-14,Restaurants,Starbucks,101.11,Credit Card,New York,1014,False,3,False,True,1,0,True,2,17,1,0
+TXN00697,2024-03-14,Shopping,Target,48.73,Credit Card,Dallas,1014,False,3,False,True,1,0,True,1,19,1,0
+TXN00316,2024-03-17,Shopping,Target,101.77,Credit Card,Seattle,1014,False,1,False,True,1,0,True,4,19,1,0
+TXN00383,2024-03-21,Entertainment,Spotify,167.91,Debit Card,San Francisco,1014,False,1,False,True,1,0,True,3,16,1,0
+TXN00454,2024-03-23,Groceries,Walmart,48.46,Credit Card,New York,1014,False,1,False,True,1,0,True,2,22,1,0
+TXN00968,2024-03-26,Gas,ExxonMobil,223.62,Debit Card,Chicago,1014,False,1,False,True,1,0,True,0,10,1,0
+TXN00674,2024-03-27,Groceries,Kroger,9.97,Credit Card,New York,1014,False,1,False,True,1,0,True,2,12,1,0
+TXN00673,2024-04-02,Utilities,Comcast,50.18,Credit Card,New York,1014,False,1,False,False,1,0,False,2,8,1,0
+TXN01000,2024-04-09,Gas,Chevron,15.38,Debit Card,San Francisco,1014,False,1,False,True,1,0,True,3,6,1,0
+TXN00917,2024-04-11,Utilities,Comcast,73.61,Debit Card,San Francisco,1014,False,1,False,False,1,0,False,3,8,1,0
+TXN00062,2024-04-13,Travel,Delta,34.57,Debit Card,Seattle,1014,False,1,False,True,1,0,True,4,9,1,0
+TXN00964,2024-04-15,Travel,Airbnb,170.82,Credit Card,San Francisco,1014,False,1,False,True,1,0,True,3,2,1,0
+TXN00155,2024-04-18,Utilities,AT&T,180.12,Credit Card,New York,1014,False,1,False,True,1,0,True,2,1,1,0
+TXN00499,2024-04-22,Restaurants,Chipotle,71.93,Debit Card,Dallas,1014,False,1,False,True,1,0,True,1,7,1,0
+TXN00648,2024-04-24,Healthcare,HealthPlus,57.85,Credit Card,Dallas,1014,False,1,False,False,1,0,False,1,11,1,0
+TXN00728,2024-04-26,Shopping,eBay,240.49,Debit Card,Seattle,1014,False,1,False,True,1,0,True,4,25,1,0
+TXN00029,2024-04-27,Shopping,Target,100.42,Debit Card,San Francisco,1014,False,1,False,True,1,0,True,3,19,1,0
+TXN00377,2024-04-29,Groceries,Walmart,24.92,Credit Card,Chicago,1014,False,1,False,True,1,0,True,0,22,1,0
+TXN00910,2024-04-30,Groceries,Walmart,123.22,Debit Card,San Francisco,1014,False,1,False,True,1,0,True,3,22,1,0
+TXN00140,2024-01-01,Restaurants,McDonalds,100.28,Credit Card,New York,1015,False,2,False,True,1,0,True,2,13,1,0
+TXN00218,2024-01-01,Travel,Uber,13.2,Debit Card,New York,1015,False,2,False,False,1,0,False,2,20,1,0
+TXN00898,2024-01-03,Groceries,Walmart,225.17,Debit Card,Seattle,1015,False,1,False,True,1,0,True,4,22,1,0
+TXN00446,2024-01-08,Healthcare,Walgreens,178.15,Credit Card,Seattle,1015,False,1,False,False,1,0,False,4,21,1,0
+TXN00434,2024-01-10,Entertainment,AMC Theatres,141.93,Credit Card,Seattle,1015,False,2,False,False,1,0,False,4,0,1,0
+TXN00743,2024-01-10,Utilities,Comcast,80.59,Debit Card,Chicago,1015,False,2,False,True,1,0,True,0,8,1,0
+TXN00627,2024-01-12,Travel,Delta,65.44,Credit Card,Dallas,1015,False,1,False,True,1,0,True,1,9,1,0
+TXN00132,2024-01-13,Restaurants,McDonalds,169.38,Debit Card,Chicago,1015,False,2,False,True,1,0,True,0,13,1,0
+TXN00400,2024-01-13,Healthcare,HealthPlus,8.97,Credit Card,Seattle,1015,False,2,False,True,1,0,True,4,11,1,0
+TXN00052,2024-01-18,Shopping,Amazon,72.3,Debit Card,Chicago,1015,False,1,False,True,1,0,True,0,3,1,0
+TXN00252,2024-01-22,Travel,Airbnb,28.63,Debit Card,San Francisco,1015,False,1,False,True,1,0,True,3,2,1,0
+TXN00653,2024-01-25,Travel,Delta,226.34,Credit Card,Dallas,1015,False,1,False,True,1,0,True,1,9,1,0
+TXN00988,2024-01-27,Travel,Uber,123.23,Debit Card,Dallas,1015,False,1,False,False,1,0,False,1,20,1,0
+TXN00692,2024-02-04,Gas,ExxonMobil,50.45,Credit Card,San Francisco,1015,False,1,False,True,1,0,True,3,10,1,0
+TXN00171,2024-02-07,Shopping,Target,184.98,Debit Card,New York,1015,False,1,False,True,1,0,True,2,19,1,0
+TXN00162,2024-02-08,Groceries,Walmart,58.59,Debit Card,Seattle,1015,False,1,False,True,1,0,True,4,22,1,0
+TXN00372,2024-02-16,Gas,Chevron,149.57,Debit Card,Seattle,1015,False,1,False,False,1,0,False,4,6,1,0
+TXN00347,2024-02-17,Gas,Chevron,83.15,Debit Card,Seattle,1015,False,1,False,False,1,0,False,4,6,1,0
+TXN00027,2024-02-25,Utilities,Comcast,189.14,Credit Card,San Francisco,1015,False,1,False,True,1,0,True,3,8,1,0
+TXN00092,2024-03-01,Entertainment,Spotify,160.51,Credit Card,Chicago,1015,False,1,False,True,1,0,True,0,16,1,0
+TXN00812,2024-03-04,Restaurants,McDonalds,15.14,Debit Card,San Francisco,1015,False,1,False,True,1,0,True,3,13,1,0
+TXN00204,2024-03-06,Rent,Apartments.com,1016.0,Debit Card,Chicago,1015,True,1,False,True,1,0,True,0,4,1,0
+TXN00889,2024-03-15,Gas,Shell,231.22,Debit Card,Seattle,1015,False,1,False,True,1,0,True,4,15,1,0
+TXN00524,2024-03-16,Restaurants,Starbucks,88.59,Debit Card,Dallas,1015,False,1,False,True,1,0,True,1,17,1,0
+TXN00480,2024-03-20,Shopping,eBay,239.49,Debit Card,San Francisco,1015,False,1,False,True,1,0,True,3,25,1,0
+TXN00562,2024-03-21,Entertainment,AMC Theatres,203.53,Debit Card,Dallas,1015,False,2,False,True,1,0,True,1,0,1,0
+TXN00659,2024-03-21,Rent,Apartments.com,1074.6,Credit Card,Seattle,1015,True,2,False,True,1,0,True,4,4,1,0
+TXN00137,2024-03-22,Restaurants,Chipotle,139.16,Credit Card,San Francisco,1015,False,1,False,True,1,0,True,3,7,1,0
+TXN00918,2024-03-27,Healthcare,Walgreens,42.61,Credit Card,San Francisco,1015,False,1,False,False,1,0,False,3,21,1,0
+TXN00906,2024-03-28,Shopping,eBay,204.46,Credit Card,New York,1015,False,2,False,True,1,0,True,2,25,1,0
+TXN00980,2024-03-28,Rent,Apartments.com,914.33,Debit Card,Chicago,1015,True,2,False,True,1,0,True,0,4,-1,1
+TXN00367,2024-03-29,Healthcare,HealthPlus,179.09,Credit Card,San Francisco,1015,False,1,False,True,1,0,True,3,11,1,0
+TXN00396,2024-03-30,Gas,ExxonMobil,85.18,Credit Card,San Francisco,1015,False,1,False,False,1,0,False,3,10,1,0
+TXN00308,2024-04-01,Utilities,Comcast,25.95,Debit Card,San Francisco,1015,False,2,False,False,1,0,False,3,8,1,0
+TXN00428,2024-04-01,Gas,ExxonMobil,214.8,Credit Card,New York,1015,False,2,False,True,1,0,True,2,10,1,0
+TXN00689,2024-04-03,Rent,Zillow Rentals,808.51,Debit Card,San Francisco,1015,True,1,False,True,1,0,True,3,24,1,0
+TXN00822,2024-04-04,Rent,Zillow Rentals,1024.73,Credit Card,Chicago,1015,True,1,False,True,1,0,True,0,24,1,0
+TXN00420,2024-04-07,Entertainment,Spotify,106.36,Credit Card,San Francisco,1015,False,1,False,True,1,0,True,3,16,1,0
+TXN00849,2024-04-10,Travel,Delta,29.34,Debit Card,Chicago,1015,False,1,False,True,1,0,True,0,9,1,0
+TXN00096,2024-04-15,Groceries,Kroger,32.34,Credit Card,New York,1015,False,1,False,True,1,0,True,2,12,1,0
+TXN00356,2024-04-17,Travel,Delta,189.31,Credit Card,Dallas,1015,False,1,False,True,1,0,True,1,9,1,0
+TXN00859,2024-04-23,Restaurants,McDonalds,115.27,Credit Card,Chicago,1015,False,1,False,True,1,0,True,0,13,1,0
+TXN00830,2024-01-02,Shopping,Target,40.2,Credit Card,San Francisco,1016,False,1,False,True,1,0,True,3,19,1,0
+TXN00342,2024-01-05,Shopping,Amazon,91.27,Credit Card,Seattle,1016,False,1,False,True,1,0,True,4,3,1,0
+TXN00459,2024-01-12,Groceries,Walmart,133.07,Debit Card,Dallas,1016,False,1,False,True,1,0,True,1,22,1,0
+TXN00408,2024-01-14,Gas,ExxonMobil,58.64,Credit Card,Chicago,1016,False,2,False,True,1,0,True,0,10,1,0
+TXN00842,2024-01-14,Entertainment,Spotify,83.4,Debit Card,Dallas,1016,False,2,False,True,1,0,True,1,16,1,0
+TXN00068,2024-01-17,Utilities,TXU Energy,226.02,Credit Card,San Francisco,1016,False,1,False,True,1,0,True,3,18,1,0
+TXN00051,2024-01-18,Healthcare,CVS,17.21,Credit Card,San Francisco,1016,False,1,False,False,1,0,False,3,5,1,0
+TXN00238,2024-01-21,Rent,Apartments.com,1379.43,Credit Card,New York,1016,True,1,False,True,1,0,True,2,4,1,0
+TXN00080,2024-01-23,Rent,Apartments.com,1119.1,Debit Card,Chicago,1016,True,1,False,True,1,0,True,0,4,1,0
+TXN00422,2024-01-25,Groceries,Kroger,98.66,Debit Card,New York,1016,False,1,False,True,1,0,True,2,12,1,0
+TXN00485,2024-01-27,Gas,ExxonMobil,42.95,Debit Card,San Francisco,1016,False,1,False,True,1,0,True,3,10,1,0
+TXN00970,2024-01-28,Groceries,Whole Foods,45.46,Debit Card,San Francisco,1016,False,1,False,False,1,0,False,3,23,1,0
+TXN00785,2024-01-29,Utilities,AT&T,17.72,Credit Card,Seattle,1016,False,1,False,True,1,0,True,4,1,1,0
+TXN00717,2024-01-30,Rent,Zillow Rentals,1103.07,Debit Card,Chicago,1016,True,1,False,True,1,0,True,0,24,1,0
+TXN00398,2024-01-31,Entertainment,Spotify,18.76,Debit Card,Dallas,1016,False,1,False,True,1,0,True,1,16,1,0
+TXN00489,2024-02-05,Travel,Airbnb,51.75,Credit Card,New York,1016,False,1,False,True,1,0,True,2,2,1,0
+TXN00638,2024-02-11,Rent,Zillow Rentals,1486.32,Credit Card,Seattle,1016,True,1,False,True,-1,1,True,4,24,-1,1
+TXN00773,2024-02-12,Restaurants,Chipotle,16.93,Debit Card,Chicago,1016,False,1,False,True,1,0,True,0,7,1,0
+TXN00580,2024-02-13,Rent,Apartments.com,1057.66,Debit Card,San Francisco,1016,True,2,False,True,1,0,True,3,4,1,0
+TXN00801,2024-02-13,Utilities,Comcast,186.16,Credit Card,Seattle,1016,False,2,False,True,1,0,True,4,8,1,0
+TXN00904,2024-02-14,Groceries,Whole Foods,120.33,Credit Card,New York,1016,False,1,False,True,1,0,True,2,23,1,0
+TXN00391,2024-02-16,Gas,Chevron,174.96,Credit Card,Dallas,1016,False,1,False,True,1,0,True,1,6,1,0
+TXN00791,2024-02-18,Restaurants,Chipotle,95.94,Debit Card,Dallas,1016,False,1,False,False,1,0,False,1,7,1,0
+TXN00047,2024-02-21,Travel,Uber,200.36,Credit Card,Dallas,1016,False,1,False,False,1,0,False,1,20,1,0
+TXN00490,2024-02-23,Gas,Chevron,86.72,Credit Card,Seattle,1016,False,1,False,True,1,0,True,4,6,1,0
+TXN00121,2024-02-26,Entertainment,Netflix,11.99,Credit Card,San Francisco,1016,False,1,False,True,1,0,True,3,14,1,0
+TXN00551,2024-02-27,Restaurants,Chipotle,211.65,Credit Card,Seattle,1016,False,1,False,True,1,0,True,4,7,1,0
+TXN00419,2024-03-03,Healthcare,CVS,224.86,Debit Card,San Francisco,1016,False,2,False,True,1,0,True,3,5,1,0
+TXN00550,2024-03-03,Groceries,Kroger,112.2,Debit Card,Chicago,1016,False,2,False,True,1,0,True,0,12,1,0
+TXN00901,2024-03-04,Shopping,Amazon,211.69,Debit Card,Seattle,1016,False,2,False,True,1,0,True,4,3,1,0
+TXN00978,2024-03-04,Restaurants,McDonalds,137.0,Debit Card,Seattle,1016,False,2,False,False,1,0,False,4,13,1,0
+TXN00992,2024-03-13,Gas,ExxonMobil,86.66,Debit Card,Seattle,1016,False,1,False,False,1,0,False,4,10,1,0
+TXN00958,2024-03-18,Restaurants,Chipotle,148.84,Debit Card,New York,1016,False,1,False,True,1,0,True,2,7,1,0
+TXN00074,2024-03-20,Gas,Chevron,52.35,Credit Card,Dallas,1016,False,1,False,True,1,0,True,1,6,1,0
+TXN00083,2024-03-23,Entertainment,AMC Theatres,116.49,Credit Card,Dallas,1016,False,1,False,False,1,0,False,1,0,1,0
+TXN00542,2024-03-26,Gas,Chevron,162.2,Credit Card,Chicago,1016,False,1,False,True,1,0,True,0,6,1,0
+TXN00527,2024-03-27,Restaurants,Chipotle,132.15,Debit Card,Seattle,1016,False,1,False,True,1,0,True,4,7,1,0
+TXN00451,2024-03-28,Groceries,Kroger,238.37,Credit Card,Dallas,1016,False,1,False,True,1,0,True,1,12,1,0
+TXN00832,2024-03-29,Groceries,Kroger,53.04,Debit Card,San Francisco,1016,False,1,False,True,1,0,True,3,12,1,0
+TXN00126,2024-03-31,Gas,ExxonMobil,148.53,Debit Card,San Francisco,1016,False,1,False,False,1,0,False,3,10,1,0
+TXN00064,2024-04-01,Shopping,Amazon,31.81,Debit Card,New York,1016,False,1,False,True,1,0,True,2,3,1,0
+TXN00198,2024-04-03,Travel,Airbnb,110.07,Credit Card,New York,1016,False,2,False,False,1,0,False,2,2,1,0
+TXN00795,2024-04-03,Groceries,Kroger,154.03,Debit Card,New York,1016,False,2,False,False,1,0,False,2,12,1,0
+TXN00055,2024-04-04,Restaurants,Starbucks,48.03,Credit Card,New York,1016,False,2,False,False,1,0,False,2,17,1,0
+TXN00234,2024-04-04,Shopping,Target,239.63,Credit Card,Dallas,1016,False,2,False,True,1,0,True,1,19,1,0
+TXN00531,2024-04-06,Rent,Zillow Rentals,1429.45,Debit Card,Chicago,1016,True,1,False,True,1,0,True,0,24,-1,1
+TXN00202,2024-04-08,Groceries,Walmart,86.48,Credit Card,Dallas,1016,False,1,False,True,1,0,True,1,22,1,0
+TXN00540,2024-04-10,Groceries,Kroger,146.2,Credit Card,Dallas,1016,False,1,False,False,1,0,False,1,12,1,0
+TXN00070,2024-04-16,Groceries,Whole Foods,208.74,Debit Card,New York,1016,False,1,False,True,1,0,True,2,23,1,0
+TXN00781,2024-04-18,Restaurants,Chipotle,21.61,Credit Card,Seattle,1016,False,2,False,True,1,0,True,4,7,1,0
+TXN00922,2024-04-18,Groceries,Kroger,137.88,Credit Card,Dallas,1016,False,2,False,True,1,0,True,1,12,1,0
+TXN00346,2024-04-21,Travel,Airbnb,142.76,Debit Card,New York,1016,False,2,False,True,1,0,True,2,2,1,0
+TXN00462,2024-04-21,Restaurants,Starbucks,167.52,Debit Card,New York,1016,False,2,False,False,1,0,False,2,17,1,0
+TXN00993,2024-04-22,Shopping,Amazon,50.92,Credit Card,Dallas,1016,False,1,False,True,1,0,True,1,3,1,0
+TXN00738,2024-04-26,Healthcare,HealthPlus,131.92,Credit Card,San Francisco,1016,False,1,False,True,1,0,True,3,11,1,0
+TXN00072,2024-01-02,Shopping,Amazon,142.07,Credit Card,Seattle,1017,False,2,False,True,1,0,True,4,3,1,0
+TXN00197,2024-01-02,Utilities,AT&T,242.18,Debit Card,Dallas,1017,False,2,False,True,1,0,True,1,1,1,0
+TXN00607,2024-01-03,Shopping,Target,13.67,Debit Card,Chicago,1017,False,1,False,True,1,0,True,0,19,1,0
+TXN00581,2024-01-07,Utilities,AT&T,75.62,Credit Card,New York,1017,False,1,False,True,1,0,True,2,1,1,0
+TXN00754,2024-01-08,Travel,Airbnb,190.38,Debit Card,Chicago,1017,False,1,False,True,1,0,True,0,2,1,0
+TXN00776,2024-01-12,Entertainment,Spotify,28.63,Debit Card,Seattle,1017,False,1,False,True,1,0,True,4,16,1,0
+TXN00940,2024-01-17,Gas,ExxonMobil,13.09,Credit Card,Seattle,1017,False,1,False,False,1,0,False,4,10,1,0
+TXN00033,2024-01-20,Gas,Shell,84.32,Debit Card,New York,1017,False,1,False,True,1,0,True,2,15,1,0
+TXN00302,2024-01-21,Rent,Zillow Rentals,845.63,Debit Card,Dallas,1017,True,1,False,True,1,0,True,1,24,1,0
+TXN00706,2024-01-24,Utilities,TXU Energy,82.52,Debit Card,Seattle,1017,False,1,False,True,1,0,True,4,18,1,0
+TXN00676,2024-01-27,Restaurants,Chipotle,183.92,Debit Card,Chicago,1017,False,1,False,True,1,0,True,0,7,1,0
+TXN00158,2024-02-07,Shopping,Amazon,28.19,Debit Card,San Francisco,1017,False,1,False,True,1,0,True,3,3,1,0
+TXN00221,2024-02-10,Utilities,Comcast,236.44,Debit Card,Seattle,1017,False,2,False,True,1,0,True,4,8,1,0
+TXN00287,2024-02-10,Groceries,Whole Foods,162.81,Debit Card,Dallas,1017,False,2,False,True,1,0,True,1,23,1,0
+TXN00686,2024-02-18,Utilities,Comcast,141.83,Credit Card,Chicago,1017,False,1,False,True,1,0,True,0,8,1,0
+TXN00165,2024-02-19,Utilities,TXU Energy,114.97,Debit Card,Seattle,1017,False,2,False,True,1,0,True,4,18,1,0
+TXN00694,2024-02-19,Healthcare,CVS,167.28,Debit Card,Seattle,1017,False,2,False,False,1,0,False,4,5,1,0
+TXN00211,2024-02-23,Healthcare,CVS,63.64,Credit Card,Dallas,1017,False,1,False,True,1,0,True,1,5,1,0
+TXN00645,2024-02-26,Entertainment,Netflix,75.19,Debit Card,San Francisco,1017,False,1,False,True,1,0,True,3,14,1,0
+TXN00186,2024-02-27,Entertainment,Netflix,41.67,Debit Card,New York,1017,False,1,False,True,1,0,True,2,14,1,0
+TXN00991,2024-03-02,Shopping,Target,70.7,Debit Card,New York,1017,False,1,False,False,1,0,False,2,19,1,0
+TXN00392,2024-03-04,Utilities,Comcast,129.94,Credit Card,San Francisco,1017,False,1,False,True,1,0,True,3,8,1,0
+TXN00574,2024-03-05,Rent,Zillow Rentals,1174.75,Credit Card,Chicago,1017,True,1,False,True,1,0,True,0,24,-1,1
+TXN00010,2024-03-06,Healthcare,Walgreens,19.54,Debit Card,Chicago,1017,False,1,False,False,1,0,False,0,21,1,0
+TXN00108,2024-03-07,Gas,ExxonMobil,59.78,Credit Card,Chicago,1017,False,1,False,False,1,0,False,0,10,1,0
+TXN00258,2024-03-08,Healthcare,Walgreens,249.71,Credit Card,Seattle,1017,False,1,False,True,1,0,True,4,21,1,0
+TXN00807,2024-03-09,Gas,Shell,151.94,Credit Card,San Francisco,1017,False,1,False,True,1,0,True,3,15,1,0
+TXN00432,2024-03-10,Restaurants,McDonalds,199.94,Debit Card,Dallas,1017,False,1,False,True,1,0,True,1,13,1,0
+TXN00285,2024-03-13,Gas,Chevron,233.28,Credit Card,Dallas,1017,False,1,False,False,1,0,False,1,6,1,0
+TXN00336,2024-03-15,Shopping,Amazon,53.05,Credit Card,Chicago,1017,False,4,True,True,-1,1,True,0,3,-1,1
+TXN00512,2024-03-15,Rent,Zillow Rentals,938.37,Credit Card,New York,1017,True,4,True,True,-1,1,True,2,24,-1,1
+TXN00538,2024-03-15,Travel,Delta,12.17,Debit Card,Seattle,1017,False,4,True,True,-1,1,True,4,9,-1,1
+TXN00984,2024-03-15,Healthcare,HealthPlus,49.79,Debit Card,Dallas,1017,False,4,True,True,-1,1,True,1,11,-1,1
+TXN00790,2024-03-16,Entertainment,Netflix,144.76,Credit Card,New York,1017,False,1,False,True,1,0,True,2,14,1,0
+TXN00658,2024-03-17,Healthcare,CVS,152.78,Debit Card,San Francisco,1017,False,1,False,True,1,0,True,3,5,1,0
+TXN00532,2024-03-19,Entertainment,Netflix,30.59,Credit Card,Chicago,1017,False,1,False,True,1,0,True,0,14,1,0
+TXN00322,2024-03-25,Rent,Apartments.com,1088.57,Credit Card,Dallas,1017,True,2,False,True,1,0,True,1,4,1,0
+TXN00337,2024-03-25,Groceries,Whole Foods,37.01,Debit Card,New York,1017,False,2,False,True,1,0,True,2,23,1,0
+TXN00304,2024-03-26,Restaurants,Chipotle,137.46,Debit Card,Seattle,1017,False,1,False,True,1,0,True,4,7,1,0
+TXN00547,2024-03-31,Groceries,Kroger,132.58,Debit Card,Chicago,1017,False,1,False,True,1,0,True,0,12,1,0
+TXN00323,2024-04-01,Rent,Apartments.com,826.27,Debit Card,New York,1017,True,3,False,True,-1,1,True,2,4,-1,1
+TXN00873,2024-04-01,Travel,Delta,154.01,Debit Card,Dallas,1017,False,3,False,True,1,0,True,1,9,1,0
+TXN00880,2024-04-01,Restaurants,Chipotle,181.54,Debit Card,Chicago,1017,False,3,False,True,1,0,True,0,7,-1,1
+TXN00821,2024-04-09,Gas,ExxonMobil,147.11,Debit Card,San Francisco,1017,False,1,False,True,1,0,True,3,10,1,0
+TXN00195,2024-04-10,Restaurants,Starbucks,96.21,Credit Card,Chicago,1017,False,3,False,True,1,0,True,0,17,1,0
+TXN00251,2024-04-10,Healthcare,Walgreens,155.2,Debit Card,Chicago,1017,False,3,False,False,1,0,False,0,21,1,0
+TXN00885,2024-04-10,Gas,ExxonMobil,234.76,Credit Card,New York,1017,False,3,False,True,1,0,True,2,10,1,0
+TXN00506,2024-04-12,Travel,Delta,15.78,Credit Card,San Francisco,1017,False,1,False,True,1,0,True,3,9,1,0
+TXN00685,2024-04-13,Gas,Shell,231.85,Debit Card,San Francisco,1017,False,1,False,False,1,0,False,3,15,1,0
+TXN00815,2024-04-15,Groceries,Kroger,247.69,Debit Card,Chicago,1017,False,1,False,True,1,0,True,0,12,1,0
+TXN00003,2024-04-16,Travel,Airbnb,117.45,Credit Card,Dallas,1017,False,2,False,True,1,0,True,1,2,1,0
+TXN00825,2024-04-16,Travel,Uber,127.74,Credit Card,Dallas,1017,False,2,False,False,1,0,False,1,20,1,0
+TXN00380,2024-04-17,Healthcare,HealthPlus,76.7,Credit Card,San Francisco,1017,False,1,False,True,1,0,True,3,11,1,0
+TXN00382,2024-04-18,Groceries,Walmart,205.23,Debit Card,Dallas,1017,False,1,False,True,1,0,True,1,22,1,0
+TXN00813,2024-04-26,Gas,ExxonMobil,86.18,Debit Card,New York,1017,False,1,False,True,1,0,True,2,10,1,0
+TXN00858,2024-04-29,Rent,Zillow Rentals,1121.09,Debit Card,Dallas,1017,True,1,False,True,1,0,True,1,24,1,0
+TXN00245,2024-01-07,Rent,Zillow Rentals,1267.15,Credit Card,Chicago,1018,True,2,False,True,1,0,True,0,24,-1,1
+TXN00295,2024-01-07,Restaurants,Chipotle,230.16,Debit Card,New York,1018,False,2,False,True,1,0,True,2,7,1,0
+TXN00510,2024-01-10,Entertainment,AMC Theatres,226.12,Debit Card,Dallas,1018,False,1,False,True,1,0,True,1,0,1,0
+TXN00457,2024-01-12,Entertainment,Netflix,107.42,Credit Card,San Francisco,1018,False,1,False,True,1,0,True,3,14,1,0
+TXN00808,2024-01-16,Rent,Apartments.com,954.69,Credit Card,Seattle,1018,True,1,False,True,1,0,True,4,4,1,0
+TXN00293,2024-01-23,Travel,Uber,38.77,Debit Card,Chicago,1018,False,2,False,True,1,0,True,0,20,1,0
+TXN00430,2024-01-23,Utilities,Comcast,105.08,Debit Card,Chicago,1018,False,2,False,False,1,0,False,0,8,1,0
+TXN00661,2024-01-25,Rent,Apartments.com,1276.78,Credit Card,New York,1018,True,1,False,True,1,0,True,2,4,1,0
+TXN00261,2024-01-26,Groceries,Kroger,246.45,Debit Card,Seattle,1018,False,1,False,True,1,0,True,4,12,1,0
+TXN00057,2024-01-29,Rent,Zillow Rentals,1083.7,Credit Card,San Francisco,1018,True,1,False,True,1,0,True,3,24,1,0
+TXN00792,2024-01-31,Healthcare,Walgreens,33.34,Debit Card,San Francisco,1018,False,1,False,False,1,0,False,3,21,1,0
+TXN00591,2024-02-05,Gas,Shell,133.36,Credit Card,Dallas,1018,False,1,False,True,1,0,True,1,15,1,0
+TXN00142,2024-02-06,Shopping,Target,175.23,Debit Card,Chicago,1018,False,1,False,True,1,0,True,0,19,1,0
+TXN00682,2024-02-07,Rent,Apartments.com,1066.96,Debit Card,Seattle,1018,True,1,False,True,1,0,True,4,4,1,0
+TXN00099,2024-02-11,Restaurants,Starbucks,146.98,Credit Card,Seattle,1018,False,1,False,False,1,0,False,4,17,1,0
+TXN00214,2024-02-12,Healthcare,Walgreens,177.06,Credit Card,New York,1018,False,1,False,True,1,0,True,2,21,1,0
+TXN00223,2024-02-15,Groceries,Walmart,214.0,Debit Card,Dallas,1018,False,1,False,True,1,0,True,1,22,1,0
+TXN00473,2024-02-16,Restaurants,McDonalds,249.28,Debit Card,San Francisco,1018,False,1,False,True,1,0,True,3,13,1,0
+TXN00257,2024-02-19,Groceries,Kroger,246.22,Credit Card,New York,1018,False,1,False,True,1,0,True,2,12,1,0
+TXN00599,2024-02-23,Rent,Apartments.com,1187.93,Credit Card,Seattle,1018,True,1,False,True,1,0,True,4,4,1,0
+TXN00545,2024-02-24,Healthcare,Walgreens,191.22,Debit Card,San Francisco,1018,False,1,False,True,1,0,True,3,21,1,0
+TXN00076,2024-02-25,Healthcare,Walgreens,49.5,Debit Card,San Francisco,1018,False,1,False,False,1,0,False,3,21,1,0
+TXN00005,2024-03-02,Healthcare,Walgreens,243.09,Debit Card,Dallas,1018,False,1,False,True,1,0,True,1,21,1,0
+TXN00641,2024-03-06,Shopping,Amazon,194.64,Credit Card,Chicago,1018,False,1,False,True,1,0,True,0,3,1,0
+TXN00663,2024-03-07,Rent,Apartments.com,1006.92,Debit Card,New York,1018,True,1,False,True,1,0,True,2,4,1,0
+TXN00205,2024-03-11,Rent,Zillow Rentals,1174.01,Credit Card,San Francisco,1018,True,1,False,True,1,0,True,3,24,1,0
+TXN00365,2024-03-19,Restaurants,Starbucks,230.86,Debit Card,San Francisco,1018,False,1,False,False,1,0,False,3,17,1,0
+TXN00414,2024-03-21,Gas,Chevron,72.61,Credit Card,New York,1018,False,1,False,True,1,0,True,2,6,1,0
+TXN00518,2024-03-25,Shopping,eBay,14.25,Debit Card,Dallas,1018,False,2,False,True,1,0,True,1,25,1,0
+TXN00596,2024-03-25,Shopping,eBay,128.83,Debit Card,Chicago,1018,False,2,False,True,1,0,True,0,25,1,0
+TXN00691,2024-03-30,Restaurants,McDonalds,199.59,Credit Card,Dallas,1018,False,1,False,True,1,0,True,1,13,1,0
+TXN00049,2024-04-01,Healthcare,CVS,125.85,Debit Card,San Francisco,1018,False,2,False,True,1,0,True,3,5,1,0
+TXN00680,2024-04-01,Travel,Delta,147.34,Credit Card,Dallas,1018,False,2,False,True,1,0,True,1,9,1,0
+TXN00343,2024-04-15,Healthcare,Walgreens,98.12,Credit Card,Dallas,1018,False,1,False,False,1,0,False,1,21,1,0
+TXN00848,2024-04-21,Healthcare,HealthPlus,162.67,Credit Card,Chicago,1018,False,1,False,True,1,0,True,0,11,1,0
+TXN00088,2024-04-24,Restaurants,Chipotle,226.01,Credit Card,Seattle,1018,False,1,False,True,1,0,True,4,7,1,0
+TXN00511,2024-04-26,Entertainment,Spotify,88.77,Debit Card,New York,1018,False,1,False,True,1,0,True,2,16,1,0
+TXN00412,2024-01-01,Gas,ExxonMobil,205.24,Debit Card,Dallas,1019,False,2,False,True,1,0,True,1,10,1,0
+TXN00920,2024-01-01,Travel,Airbnb,129.1,Debit Card,Seattle,1019,False,2,False,True,1,0,True,4,2,1,0
+TXN00493,2024-01-04,Travel,Airbnb,183.49,Credit Card,San Francisco,1019,False,1,False,True,1,0,True,3,2,1,0
+TXN00100,2024-01-06,Healthcare,CVS,88.51,Debit Card,San Francisco,1019,False,2,False,False,1,0,False,3,5,1,0
+TXN00853,2024-01-06,Groceries,Walmart,234.94,Debit Card,San Francisco,1019,False,2,False,False,1,0,False,3,22,1,0
+TXN00281,2024-01-07,Travel,Delta,105.96,Credit Card,Chicago,1019,False,1,False,True,1,0,True,0,9,1,0
+TXN00237,2024-01-14,Restaurants,McDonalds,21.43,Debit Card,Dallas,1019,False,2,False,True,1,0,True,1,13,1,0
+TXN00619,2024-01-14,Healthcare,HealthPlus,59.6,Debit Card,San Francisco,1019,False,2,False,True,1,0,True,3,11,1,0
+TXN00905,2024-01-16,Utilities,Comcast,59.7,Debit Card,San Francisco,1019,False,1,False,False,1,0,False,3,8,1,0
+TXN00232,2024-01-17,Travel,Delta,48.02,Credit Card,Seattle,1019,False,1,False,True,1,0,True,4,9,1,0
+TXN00424,2024-01-24,Healthcare,HealthPlus,142.61,Debit Card,Dallas,1019,False,1,False,True,1,0,True,1,11,1,0
+TXN00334,2024-02-02,Groceries,Whole Foods,107.11,Credit Card,Seattle,1019,False,1,False,True,1,0,True,4,23,1,0
+TXN00193,2024-02-05,Gas,Shell,219.9,Credit Card,San Francisco,1019,False,1,False,True,1,0,True,3,15,1,0
+TXN00246,2024-02-10,Healthcare,CVS,72.31,Credit Card,Chicago,1019,False,2,False,True,1,0,True,0,5,1,0
+TXN00967,2024-02-10,Rent,Apartments.com,1369.18,Credit Card,Seattle,1019,True,2,False,True,1,0,True,4,4,-1,1
+TXN00265,2024-02-12,Entertainment,Spotify,127.39,Credit Card,San Francisco,1019,False,1,False,True,1,0,True,3,16,1,0
+TXN00279,2024-02-13,Restaurants,Chipotle,119.64,Credit Card,Seattle,1019,False,2,False,True,1,0,True,4,7,1,0
+TXN00684,2024-02-13,Shopping,Target,212.15,Debit Card,Dallas,1019,False,2,False,True,1,0,True,1,19,1,0
+TXN00886,2024-02-15,Entertainment,AMC Theatres,61.98,Debit Card,Chicago,1019,False,1,False,True,1,0,True,0,0,1,0
+TXN00095,2024-02-19,Groceries,Whole Foods,54.37,Credit Card,Chicago,1019,False,1,False,False,1,0,False,0,23,1,0
+TXN00050,2024-02-24,Healthcare,HealthPlus,120.25,Credit Card,Seattle,1019,False,1,False,True,1,0,True,4,11,1,0
+TXN00522,2024-02-26,Rent,Apartments.com,1496.36,Credit Card,Dallas,1019,True,1,False,True,-1,1,True,1,4,-1,1
+TXN00516,2024-02-27,Restaurants,Starbucks,149.64,Credit Card,New York,1019,False,1,False,True,1,0,True,2,17,1,0
+TXN00288,2024-02-29,Shopping,eBay,201.52,Debit Card,New York,1019,False,1,False,False,1,0,False,2,25,1,0
+TXN00183,2024-03-04,Travel,Delta,48.07,Credit Card,Seattle,1019,False,1,False,True,1,0,True,4,9,1,0
+TXN00166,2024-03-06,Entertainment,Netflix,232.63,Credit Card,Dallas,1019,False,2,False,True,1,0,True,1,14,1,0
+TXN00757,2024-03-06,Restaurants,Chipotle,41.3,Debit Card,New York,1019,False,2,False,True,1,0,True,2,7,1,0
+TXN00118,2024-03-09,Healthcare,HealthPlus,15.04,Debit Card,Chicago,1019,False,1,False,True,1,0,True,0,11,1,0
+TXN00067,2024-03-12,Rent,Apartments.com,1272.61,Credit Card,Seattle,1019,True,1,False,True,1,0,True,4,4,1,0
+TXN00090,2024-03-22,Entertainment,Netflix,144.21,Debit Card,Seattle,1019,False,1,False,False,1,0,False,4,14,1,0
+TXN00053,2024-03-24,Utilities,TXU Energy,189.4,Credit Card,San Francisco,1019,False,2,False,True,1,0,True,3,18,1,0
+TXN00753,2024-03-24,Shopping,eBay,130.09,Credit Card,Chicago,1019,False,2,False,True,1,0,True,0,25,1,0
+TXN00823,2024-03-26,Gas,Shell,174.96,Debit Card,Dallas,1019,False,1,False,True,1,0,True,1,15,1,0
+TXN00563,2024-03-31,Entertainment,AMC Theatres,123.74,Debit Card,New York,1019,False,1,False,True,1,0,True,2,0,1,0
+TXN00177,2024-04-02,Groceries,Kroger,21.05,Debit Card,San Francisco,1019,False,2,False,True,1,0,True,3,12,1,0
+TXN00763,2024-04-02,Gas,ExxonMobil,82.21,Debit Card,Chicago,1019,False,2,False,True,1,0,True,0,10,1,0
+TXN00793,2024-04-06,Gas,ExxonMobil,211.23,Debit Card,New York,1019,False,1,False,True,1,0,True,2,10,1,0
+TXN00944,2024-04-10,Groceries,Walmart,158.48,Debit Card,Seattle,1019,False,1,False,True,1,0,True,4,22,1,0
+TXN00719,2024-04-12,Restaurants,Starbucks,220.95,Debit Card,San Francisco,1019,False,1,False,True,1,0,True,3,17,1,0
+TXN00270,2024-04-13,Utilities,AT&T,191.17,Credit Card,Dallas,1019,False,1,False,True,1,0,True,1,1,1,0
+TXN00884,2024-04-14,Groceries,Whole Foods,180.64,Credit Card,Seattle,1019,False,1,False,True,1,0,True,4,23,1,0
+TXN00829,2024-04-15,Utilities,AT&T,108.71,Debit Card,Dallas,1019,False,1,False,True,1,0,True,1,1,1,0
+TXN00002,2024-04-23,Travel,Delta,157.93,Credit Card,New York,1019,False,1,False,True,1,0,True,2,9,1,0
+TXN00085,2024-04-24,Gas,Chevron,15.86,Credit Card,San Francisco,1019,False,1,False,True,1,0,True,3,6,1,0
+TXN00514,2024-04-27,Rent,Apartments.com,1157.94,Credit Card,Chicago,1019,True,1,False,True,1,0,True,0,4,-1,1
+TXN00240,2024-04-28,Healthcare,CVS,135.62,Credit Card,New York,1019,False,1,False,True,1,0,True,2,5,1,0
+TXN00928,2024-04-30,Utilities,AT&T,5.36,Debit Card,San Francisco,1019,False,1,False,True,1,0,True,3,1,1,0
+TXN00879,2024-01-04,Shopping,Target,190.14,Debit Card,San Francisco,1020,False,1,False,True,1,0,True,3,19,1,0
+TXN00318,2024-01-09,Groceries,Walmart,39.97,Credit Card,San Francisco,1020,False,2,False,False,1,0,False,3,22,1,0
+TXN00741,2024-01-09,Healthcare,CVS,51.15,Debit Card,Dallas,1020,False,2,False,True,1,0,True,1,5,1,0
+TXN00024,2024-01-11,Restaurants,Chipotle,166.47,Credit Card,San Francisco,1020,False,2,False,True,1,0,True,3,7,1,0
+TXN00484,2024-01-11,Travel,Airbnb,15.52,Credit Card,Chicago,1020,False,2,False,True,1,0,True,0,2,1,0
+TXN00769,2024-01-12,Rent,Apartments.com,997.78,Credit Card,San Francisco,1020,True,1,False,True,1,0,True,3,4,1,0
+TXN00387,2024-01-13,Utilities,TXU Energy,205.6,Credit Card,Seattle,1020,False,1,False,True,1,0,True,4,18,1,0
+TXN00437,2024-01-15,Groceries,Whole Foods,126.37,Debit Card,Chicago,1020,False,2,False,True,1,0,True,0,23,1,0
+TXN00939,2024-01-15,Healthcare,CVS,59.12,Debit Card,Dallas,1020,False,2,False,True,1,0,True,1,5,1,0
+TXN00320,2024-01-17,Entertainment,Spotify,126.94,Debit Card,Chicago,1020,False,1,False,True,1,0,True,0,16,1,0
+TXN00975,2024-01-20,Gas,ExxonMobil,245.97,Debit Card,San Francisco,1020,False,1,False,True,1,0,True,3,10,1,0
+TXN00553,2024-01-21,Travel,Delta,138.54,Debit Card,New York,1020,False,1,False,True,1,0,True,2,9,1,0
+TXN00585,2024-01-22,Groceries,Walmart,240.1,Credit Card,New York,1020,False,1,False,False,1,0,False,2,22,1,0
+TXN00425,2024-01-23,Travel,Uber,225.45,Debit Card,Dallas,1020,False,1,False,True,1,0,True,1,20,1,0
+TXN00219,2024-01-25,Groceries,Walmart,80.03,Credit Card,Chicago,1020,False,1,False,True,1,0,True,0,22,1,0
+TXN00844,2024-01-30,Entertainment,Spotify,208.13,Debit Card,Dallas,1020,False,1,False,True,1,0,True,1,16,1,0
+TXN00037,2024-02-06,Gas,Chevron,232.94,Debit Card,Dallas,1020,False,1,False,False,1,0,False,1,6,1,0
+TXN00001,2024-02-19,Groceries,Whole Foods,69.49,Debit Card,New York,1020,False,2,False,True,1,0,True,2,23,1,0
+TXN00082,2024-02-19,Utilities,Comcast,151.39,Debit Card,Seattle,1020,False,2,False,True,1,0,True,4,8,1,0
+TXN00307,2024-02-22,Restaurants,Starbucks,215.76,Credit Card,New York,1020,False,2,False,True,1,0,True,2,17,1,0
+TXN00862,2024-02-22,Rent,Zillow Rentals,1315.69,Credit Card,San Francisco,1020,True,2,False,True,1,0,True,3,24,-1,1
+TXN00866,2024-02-27,Travel,Delta,237.85,Debit Card,San Francisco,1020,False,1,False,False,1,0,False,3,9,1,0
+TXN00942,2024-03-01,Rent,Zillow Rentals,992.44,Credit Card,San Francisco,1020,True,1,False,False,1,0,True,3,24,1,0
+TXN00787,2024-03-02,Shopping,Target,100.65,Debit Card,Dallas,1020,False,1,False,True,1,0,True,1,19,1,0
+TXN00608,2024-03-03,Rent,Zillow Rentals,991.21,Debit Card,San Francisco,1020,True,1,False,True,1,0,True,3,24,1,0
+TXN00729,2024-03-04,Gas,Shell,246.85,Debit Card,Seattle,1020,False,1,False,True,1,0,True,4,15,1,0
+TXN00032,2024-03-05,Shopping,eBay,162.6,Credit Card,San Francisco,1020,False,2,False,True,1,0,True,3,25,1,0
+TXN00199,2024-03-05,Gas,Shell,248.85,Debit Card,New York,1020,False,2,False,True,1,0,True,2,15,1,0
+TXN00570,2024-03-06,Groceries,Whole Foods,234.1,Credit Card,San Francisco,1020,False,1,False,True,1,0,True,3,23,1,0
+TXN00704,2024-03-10,Travel,Uber,97.37,Debit Card,Seattle,1020,False,1,False,True,1,0,True,4,20,1,0
+TXN00077,2024-03-14,Gas,Chevron,91.84,Credit Card,Chicago,1020,False,1,False,True,1,0,True,0,6,1,0
+TXN00827,2024-03-15,Utilities,Comcast,195.26,Credit Card,Seattle,1020,False,1,False,True,1,0,True,4,8,1,0
+TXN00255,2024-03-16,Groceries,Whole Foods,212.67,Credit Card,Seattle,1020,False,1,False,False,1,0,False,4,23,1,0
+TXN00752,2024-03-18,Entertainment,Spotify,249.7,Debit Card,San Francisco,1020,False,1,False,True,1,0,True,3,16,1,0
+TXN00865,2024-03-21,Gas,ExxonMobil,15.85,Debit Card,Seattle,1020,False,1,False,True,1,0,True,4,10,1,0
+TXN00715,2024-03-28,Gas,Chevron,107.99,Credit Card,Dallas,1020,False,1,False,True,1,0,True,1,6,1,0
+TXN00393,2024-03-30,Travel,Uber,221.91,Credit Card,San Francisco,1020,False,1,False,True,1,0,True,3,20,1,0
+TXN00471,2024-04-01,Healthcare,Walgreens,45.37,Debit Card,New York,1020,False,1,False,True,1,0,True,2,21,1,0
+TXN00275,2024-04-12,Utilities,TXU Energy,243.98,Debit Card,Dallas,1020,False,1,False,True,1,0,True,1,18,1,0
+TXN00113,2024-04-13,Travel,Delta,158.79,Credit Card,Seattle,1020,False,2,False,True,1,0,True,4,9,1,0
+TXN00366,2024-04-13,Utilities,TXU Energy,81.2,Debit Card,Dallas,1020,False,2,False,True,1,0,True,1,18,1,0
+TXN00207,2024-04-15,Entertainment,Netflix,129.22,Debit Card,Dallas,1020,False,1,False,False,1,0,False,1,14,1,0
+TXN00982,2024-04-24,Entertainment,AMC Theatres,20.85,Credit Card,Seattle,1020,False,1,False,True,1,0,True,4,0,1,0
+TXN00548,2024-04-25,Rent,Zillow Rentals,1059.87,Credit Card,Chicago,1020,True,1,False,True,1,0,True,0,24,1,0
+TXN00379,2024-04-28,Travel,Uber,223.41,Debit Card,Seattle,1020,False,1,False,True,1,0,True,4,20,1,0
+TXN00354,2024-04-29,Groceries,Kroger,5.34,Credit Card,New York,1020,False,2,False,True,1,0,True,2,12,1,0
+TXN00718,2024-04-29,Healthcare,CVS,11.85,Credit Card,San Francisco,1020,False,2,False,True,1,0,True,3,5,1,0
